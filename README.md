@@ -12,5 +12,6 @@ For more informations about QuPath consult the website "https://qupath.readthedo
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type.
    - To reopen the project, clic on "open project" and select "project".qpproj or drag and drop the project files directly into the sofware 
 
-
+## Icon function 
+![image](https://user-images.githubusercontent.com/127110867/225029024-b802c332-f8c5-473e-a7c0-59e0ba6d2013.png) : Allows you to make the left-hand column appear or disappear  
 
