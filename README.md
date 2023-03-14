@@ -14,6 +14,7 @@ For more informations about QuPath consult the website "https://qupath.readthedo
 
 ## Icon function 
 ![image](https://user-images.githubusercontent.com/127110867/225029024-b802c332-f8c5-473e-a7c0-59e0ba6d2013.png) : Allows you to make the left column appear or disappear  
+
 ![image](https://user-images.githubusercontent.com/127110867/225029694-10ee0824-4ace-4c61-9b05-d8ab78472636.png) : Allows you to move image in all directions, but you can do this with the right-click. You can also use the mouse scroll wheel for zooming. 
 
 ![image](https://user-images.githubusercontent.com/127110867/225032103-7ba78885-f2b4-4408-b767-3d04b08d4be7.png) : Draws a rectangle around the area of interest. This function is used to acquire an annotation. This annotation is saved in the "Annotation" tab. When this annotation is yellow, you can move it, but when it is red, you cannot move it unless you double-click inside. 
@@ -35,4 +36,11 @@ Create a polygon. Double-click when finished.
 
     Shortcut keys
 ![image](https://user-images.githubusercontent.com/127110867/225045509-a3103c7b-ea3b-49a4-8c49-fb5c7f2fa941.png)
+ALT Key : 
+- When the Move tool is selected, use the Alt key to click on multiple objects to select them.
+- When the Brush or Wand tools are selected, use the Alt key to switch to 'eraser' mode when drawing
+Shift Key :
+- When the Brush or Wand tools are selected, use the Shift key to continue adding to an existing selected annotation (rather than creating a new one).
+
+![image](https://user-images.githubusercontent.com/127110867/225048760-5512b02f-1afe-4678-add6-98f66dc8db72.png) ![image](https://user-images.githubusercontent.com/127110867/225048877-c990f570-dd8b-4d81-b650-54ddb3eb9624.png)
 
