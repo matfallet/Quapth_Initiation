@@ -36,7 +36,8 @@ Create a polygon. Double-click when finished.
 
     Shortcut keys
 ![image](https://user-images.githubusercontent.com/127110867/225045509-a3103c7b-ea3b-49a4-8c49-fb5c7f2fa941.png)
-// ALT Key : 
+
+ALT Key : 
 - When the Move tool is selected, use the Alt key to click on multiple objects to select them.
 - When the Brush or Wand tools are selected, use the Alt key to switch to 'eraser' mode when drawing
 Shift Key :
