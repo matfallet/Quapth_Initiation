@@ -40,6 +40,7 @@ Create a polygon. Double-click when finished.
 ALT Key : 
 - When the Move tool is selected, use the Alt key to click on multiple objects to select them.
 - When the Brush or Wand tools are selected, use the Alt key to switch to 'eraser' mode when drawing
+
 Shift Key :
 - When the Brush or Wand tools are selected, use the Shift key to continue adding to an existing selected annotation (rather than creating a new one).
 
