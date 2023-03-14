@@ -16,8 +16,8 @@ For more informations about QuPath consult the website "https://qupath.readthedo
 ![image](https://user-images.githubusercontent.com/127110867/225029024-b802c332-f8c5-473e-a7c0-59e0ba6d2013.png) : Allows you to make the left column appear or disappear  
 ![image](https://user-images.githubusercontent.com/127110867/225029694-10ee0824-4ace-4c61-9b05-d8ab78472636.png) : Allows you to move image in all directions, but you can do this with the right-click. You can also use the mouse scroll wheel for zooming. 
 ![image](https://user-images.githubusercontent.com/127110867/225032103-7ba78885-f2b4-4408-b767-3d04b08d4be7.png) : Draws a rectangle around the area of interest. This function is used to acquire an annotation. This annotation is saved in the "Annotation" tab. When this annotation is yellow, you can move it, but when it is red, you cannot move it unless you double-click inside. 
- ![image](https://user-images.githubusercontent.com/127110867/225034022-d21ac8d4-e381-4457-9b5b-6296d10e304b.png) : Same function as the rectangle 
- ![image](https://user-images.githubusercontent.com/127110867/225034273-7302a61f-910a-4fbd-83e4-b416bfe131eb.png) : Create a line 
+![image](https://user-images.githubusercontent.com/127110867/225034022-d21ac8d4-e381-4457-9b5b-6296d10e304b.png) : Same function as the rectangle 
+![image](https://user-images.githubusercontent.com/127110867/225034273-7302a61f-910a-4fbd-83e4-b416bfe131eb.png) : Create a line 
 ![image](https://user-images.githubusercontent.com/127110867/225035326-06cddf99-5d66-417c-8833-545ebf57a0bf.png) :
 Create a polygon. Double-click when finished. 
 ![image](https://user-images.githubusercontent.com/127110867/225035459-4458d2f8-65a4-4634-8690-ed1b44f5b3ba.png) : Create a freehand area, without releasing the mouse 
