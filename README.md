@@ -45,7 +45,9 @@ Create a polygon. Double-click when finished.
 -  The names of the start channels are not lost, if you press the "Image" tab, and double-click on "Metadata changed" you get the start names back.   
 
 To get the optimal intensity of the channel, you can play with the bar of the graph. You have to select the channel beforehand.
-![image](https://user-images.githubusercontent.com/127110867/225268604-f200e9c4-5720-4463-87c0-bbcb69b718d7.png) ![image](https://user-images.githubusercontent.com/127110867/225268621-b1255046-da79-4a29-972b-7b70c950eb54.png)
+![image](https://user-images.githubusercontent.com/127110867/225268944-dd1a1a41-9899-412c-a72d-3207c6bf7415.png) ![image](https://user-images.githubusercontent.com/127110867/225268978-dad7ba74-91f8-4e5a-b69f-1e37d028b03c.png)
+
+
 
 
       Shortcut keys  
