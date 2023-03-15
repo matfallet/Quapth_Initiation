@@ -39,7 +39,8 @@ Create a polygon. Double-click when finished.
 ![image](https://user-images.githubusercontent.com/127110867/225261236-ef56c90d-59b7-4d97-9fd8-54679f882eee.png) : Select the channels and their intensity. You can change the channel name by double-clicking on the top. Or by using a script.   
 - Write the channel name as a "notepad or word" on the separate line. 
 - Copy the lines and select all channels at once and press "Clrl+V"  
-![image](https://user-images.githubusercontent.com/127110867/225262038-e164f93b-8b36-4ad5-87c5-087996baed33.png) ![image](https://user-images.githubusercontent.com/127110867/225262353-fc6ec6e6-01ce-4130-986e-952f42f1be08.png)
+![image](https://user-images.githubusercontent.com/127110867/225262038-e164f93b-8b36-4ad5-87c5-087996baed33.png) ![image](https://user-images.githubusercontent.com/127110867/225263469-21f7d51a-f7fb-40c2-a2be-10d4bf263a9f.png)
+
 
 
 
