@@ -44,7 +44,7 @@ Create a polygon. Double-click when finished.
 - In the "Annotation" tab, on the right hand side, the channels name are in the column. If this is not the case, you can press the three small dots at the bottom right of the column and select "Populate from image channels".  
 -  The names of the start channels are not lost, if you press the "Image" tab, and double-click on "Metadata changed" you get the start names back.   
 
-To get the optimal intensity of the channel, you can play with the bar of the graph. You have to select the channel beforehand.
+To get the optimal intensity of the channel, you can play with the bar of the graph. You have to select the channel beforehand.  
 ![image](https://user-images.githubusercontent.com/127110867/225268944-dd1a1a41-9899-412c-a72d-3207c6bf7415.png) ![image](https://user-images.githubusercontent.com/127110867/225268978-dad7ba74-91f8-4e5a-b69f-1e37d028b03c.png)
 
 
