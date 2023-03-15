@@ -42,9 +42,7 @@ Create a polygon. Double-click when finished.
 ![image](https://user-images.githubusercontent.com/127110867/225262038-e164f93b-8b36-4ad5-87c5-087996baed33.png) ![image](https://user-images.githubusercontent.com/127110867/225263469-21f7d51a-f7fb-40c2-a2be-10d4bf263a9f.png)
 
 
-
-
-    Shortcut keys
+    Shortcut keys  
 ![image](https://user-images.githubusercontent.com/127110867/225045509-a3103c7b-ea3b-49a4-8c49-fb5c7f2fa941.png); 
 
 ALT Key : 
