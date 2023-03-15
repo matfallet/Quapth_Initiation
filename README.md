@@ -1,4 +1,4 @@
-# Qupath_Quantification_PeyerPatch
+# Qupath_Initiation
 cluster/phenotyping/interaction
 
 For more informations about QuPath consult the website "https://qupath.readthedocs.io/en/stable/index.html" or watch the videos in the plateform Github.com "..."
