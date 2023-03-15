@@ -57,7 +57,9 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 ![image](https://user-images.githubusercontent.com/127110867/225273685-638fe595-c9f0-46ef-8269-c63bd4051b67.png) : Shows the TMA grid in the viewer
 
+![image](https://user-images.githubusercontent.com/127110867/225278991-be528b5c-0e8e-405f-80f3-bb9e4ff9e7e2.png) : Shows the detections or the cells 
 
+![image](https://user-images.githubusercontent.com/127110867/225279160-bd032269-ac36-4973-bd8c-a9fa126f37db.png)
 
 
 
