@@ -59,13 +59,23 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 ![image](https://user-images.githubusercontent.com/127110867/225278991-be528b5c-0e8e-405f-80f3-bb9e4ff9e7e2.png) : Shows the detections or the cells 
 
-![image](https://user-images.githubusercontent.com/127110867/225279318-a434b7cb-1fea-47ce-ac3d-0156965aa7d9.png)
+![image](https://user-images.githubusercontent.com/127110867/225279318-a434b7cb-1fea-47ce-ac3d-0156965aa7d9.png) : Fills in the detections or the cells 
+
+![image](https://user-images.githubusercontent.com/127110867/225280507-b4a1c82c-52ef-4192-b15b-cc1074f8a6d9.png)
 
 
+![image](https://user-images.githubusercontent.com/127110867/225280131-33b778e0-7887-49eb-b304-72ff20fa8e01.png) : Make detections or cells disappear by moving the bar  
+
+![image](https://user-images.githubusercontent.com/127110867/225280759-1ab602c2-45b3-4875-9acd-73678fd019d8.png) : Allows you to view measurements of TMAs, annotations or detections. 
+
+![image](https://user-images.githubusercontent.com/127110867/225281398-47464a56-647b-42b4-910f-fc3ad5663623.png) : Display the image in the top right corner  
+
+![image](https://user-images.githubusercontent.com/127110867/225281522-1ce29af9-3e88-4e91-8889-80f8c341fe09.png) : Display the scale in the lower right corner. ![image](https://user-images.githubusercontent.com/127110867/225283906-8c33e618-54ee-4f3b-8505-90124968cb57.png)
 
 
+![image](https://user-images.githubusercontent.com/127110867/225281613-2a539c11-ecd3-4e1a-b202-817096315fe0.png)
 
-
+![image](https://user-images.githubusercontent.com/127110867/225281688-6033bcc0-51d6-4e9e-b351-9ce8a1a5c003.png)
 
 
 
