@@ -34,8 +34,17 @@ Create a polygon. Double-click when finished.
 
 ![image](https://user-images.githubusercontent.com/127110867/225042065-a328453b-71b6-4c0b-a0ec-a6faa4406495.png) : Allows you to count the cells of the same class. If you want to count cells of another class, you can press "Add" in the window that opened when you started selecting cells. You can save the list of points to a file for future reference.
 
+![image](https://user-images.githubusercontent.com/127110867/225261165-fa603c30-9744-474b-a909-863e4b67cec7.png)
+
+![image](https://user-images.githubusercontent.com/127110867/225261236-ef56c90d-59b7-4d97-9fd8-54679f882eee.png) : Select the channels and their intensity. You can change the channel name by double-clicking on the top. Or by using a script.   
+- Write the channel name as a "notepad or word" on the separate line. 
+- Copy the lines and select all channels at once and press "Clrl+V"  
+![image](https://user-images.githubusercontent.com/127110867/225262038-e164f93b-8b36-4ad5-87c5-087996baed33.png) ![image](https://user-images.githubusercontent.com/127110867/225262353-fc6ec6e6-01ce-4130-986e-952f42f1be08.png)
+
+
+
     Shortcut keys
-![image](https://user-images.githubusercontent.com/127110867/225045509-a3103c7b-ea3b-49a4-8c49-fb5c7f2fa941.png)
+![image](https://user-images.githubusercontent.com/127110867/225045509-a3103c7b-ea3b-49a4-8c49-fb5c7f2fa941.png); 
 
 ALT Key : 
 - When the Move tool is selected, use the Alt key to click on multiple objects to select them.
@@ -45,4 +54,6 @@ Shift Key :
 - When the Brush or Wand tools are selected, use the Shift key to continue adding to an existing selected annotation (rather than creating a new one).
 
 ![image](https://user-images.githubusercontent.com/127110867/225048760-5512b02f-1afe-4678-add6-98f66dc8db72.png) ![image](https://user-images.githubusercontent.com/127110867/225048877-c990f570-dd8b-4d81-b650-54ddb3eb9624.png)
+
+
 
