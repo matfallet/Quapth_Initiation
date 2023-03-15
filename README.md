@@ -70,7 +70,7 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 ![image](https://user-images.githubusercontent.com/127110867/225281398-47464a56-647b-42b4-910f-fc3ad5663623.png) : Display the image in the top right corner  
 
-![image](https://user-images.githubusercontent.com/127110867/225281522-1ce29af9-3e88-4e91-8889-80f8c341fe09.png) : Display the scale in the lower right corner. ![image](https://user-images.githubusercontent.com/127110867/225283906-8c33e618-54ee-4f3b-8505-90124968cb57.png)
+![image](https://user-images.githubusercontent.com/127110867/225281522-1ce29af9-3e88-4e91-8889-80f8c341fe09.png) : Displays the scale in the lower right corner. The first number is ..., the second number is ..., the middle number is the pixel intensity. The last number is the position of the Z-stack.  ![image](https://user-images.githubusercontent.com/127110867/225283906-8c33e618-54ee-4f3b-8505-90124968cb57.png)
 
 
 ![image](https://user-images.githubusercontent.com/127110867/225281613-2a539c11-ecd3-4e1a-b202-817096315fe0.png)
