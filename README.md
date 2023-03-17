@@ -120,4 +120,5 @@ Shift Key :
 ![image](https://user-images.githubusercontent.com/127110867/225048760-5512b02f-1afe-4678-add6-98f66dc8db72.png) ![image](https://user-images.githubusercontent.com/127110867/225048877-c990f570-dd8b-4d81-b650-54ddb3eb9624.png)
 
 
+![Clipboard](https://user-images.githubusercontent.com/41480459/225923649-6c638346-f737-4d2f-8bd4-8c853beab471.jpg)
 
