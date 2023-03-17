@@ -122,3 +122,4 @@ Shift Key :
 
 ![Clipboard](https://user-images.githubusercontent.com/41480459/225923649-6c638346-f737-4d2f-8bd4-8c853beab471.jpg)
 
+![Clipboard-1](https://user-images.githubusercontent.com/41480459/225924006-8c9935d8-25a6-470b-bb13-f070b961297c.jpg)
