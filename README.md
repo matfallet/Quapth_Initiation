@@ -52,7 +52,7 @@ With the three dot you can Add or remove a annotation, remove all the annotation
 ![image](https://user-images.githubusercontent.com/127110867/226393521-72e82183-e2fc-4cd7-8aae-db278aa4cb96.png)
  
     Annotation function icon
-![image](https://user-images.githubusercontent.com/127110867/225032103-7ba78885-f2b4-4408-b767-3d04b08d4be7.png) : Draws a rectangle annotation. (This annotation is saved in the "Annotation" tab). When this annotation is yellow, you can move it, but when it is red, you cannot move it unless you double-click inside. 
+![image](https://user-images.githubusercontent.com/127110867/226398948-cc645e65-dfe3-44aa-80e4-35070b59821d.png) : Draws a rectangle annotation. (This annotation is saved in the "Annotation" tab). When this annotation is yellow, you can move it, but when it is red, you cannot move it unless you double-click inside. 
 
 ![image](https://user-images.githubusercontent.com/127110867/225034022-d21ac8d4-e381-4457-9b5b-6296d10e304b.png) : Ellipse annotation.
 
@@ -71,11 +71,11 @@ Create a polygon. Double-click when finished.
 
 ![image](https://user-images.githubusercontent.com/127110867/225261165-fa603c30-9744-474b-a909-863e4b67cec7.png) : When selected it prevents the creation of annotations but not modify the existing ones.
 
-The annotations can be prioritised, when you press on "insert in hierarchy", the annotation 
+The annotations can be prioritised, when you press on "insert in hierarchy", the annotation is integrate into a other annotation. 
 
 
 
-
+    Fonctionnel icon 
 ![image](https://user-images.githubusercontent.com/127110867/225270911-3d6aaa16-1e73-40fe-89f9-007b77ae10d8.png) : Shows only the selected annotation(s).
 
 ![image](https://user-images.githubusercontent.com/127110867/225271644-87dd7076-f335-4b6c-b190-e256515e4c8c.png) : 
