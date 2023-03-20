@@ -45,7 +45,7 @@ By pressing this key, you can see the whole image and freeze it. If you want to 
 
 ![image](https://user-images.githubusercontent.com/127110867/225286726-b4f89fe2-3d68-4132-bffa-ffa1b4f1312d.png) : Set software preferences.
 
-## Create a annotation 
+### Create a annotation 
 The "Annotation" tab allows you to see the created annotations in order. To change the name and colour of the annotation, simply right-click on the annotation and press "Set Properties". On the right hand side of the toolbar you see different classes defined by default. The classes can be changed, or deleted, some may be interesting to keep, like "None", which shows the unclassified cells. You can add a classe, beacause when you want define a classe of the cells you need to create a classe before. 
 When you select annotation and you click on "Set class", your annotation have the name of the class. 
 With the three dot you can Add or remove a annotation, remove all the annotation except those used, export the channel name, or show/hide the classe selected (space bar can do it).  
