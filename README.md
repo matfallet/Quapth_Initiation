@@ -12,7 +12,7 @@ For more informations about QuPath consult the website "https://qupath.readthedo
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type ("fluo","HE",..).
    - To reopen the project, click on "open project" and select "project".qpproj or drag and drop the project files directly into the sofware 
 
-"Image" tab : The tab allows you to see the properties of the image. Like the name, the file, the size, the dimensions...  
+####"Image" tab : The tab allows you to see the properties of the image. Like the name, the file, the size, the dimensions...  
 ![image](https://user-images.githubusercontent.com/127110867/226386290-bebeb45d-d614-4bba-ad70-cad681297709.png)
 
     Image specific icon 
