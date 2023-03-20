@@ -74,7 +74,6 @@ Create a polygon. Double-click when finished.
 The annotations can be prioritised, when you press on "insert in hierarchy", the annotation is integrate into a other annotation. 
 
 
-
     Fonctionnel icon 
 ![image](https://user-images.githubusercontent.com/127110867/225270911-3d6aaa16-1e73-40fe-89f9-007b77ae10d8.png) : Shows only the selected annotation(s).
 
