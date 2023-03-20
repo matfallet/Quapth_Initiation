@@ -17,9 +17,9 @@ The "image" tab allows you to see the properties of the image. Like the name, th
 ![image](https://user-images.githubusercontent.com/127110867/226386290-bebeb45d-d614-4bba-ad70-cad681297709.png)
 
     Image specific icon 
-![image](https://user-images.githubusercontent.com/127110867/225029024-b802c332-f8c5-473e-a7c0-59e0ba6d2013.png) : Allows you to make the left tools bar appear or disappear  
+![image](https://user-images.githubusercontent.com/127110867/226399645-1c918eef-aac2-47e7-b616-dce61f7b54d7.png) : Allows you to make the left tools bar appear or disappear  
 
-![image](https://user-images.githubusercontent.com/127110867/225029694-10ee0824-4ace-4c61-9b05-d8ab78472636.png) : Allows you to move image in all directions. You can also use the mouse scroll wheel for zooming. 
+![image](https://user-images.githubusercontent.com/127110867/226399716-1dd33d56-df0f-4f32-be40-af8d9adabc6c.png) : Allows you to move image in all directions. You can also use the mouse scroll wheel for zooming. 
     
 ![image](https://user-images.githubusercontent.com/127110867/225261236-ef56c90d-59b7-4d97-9fd8-54679f882eee.png) : Select the channels and their brightness/contrast. You can change the channel name by double-clicking on the top or by using a script.   
 - Write the channel name as a "notepad or word" on the separate line. 
@@ -138,6 +138,3 @@ Shift Key :
 ![image](https://user-images.githubusercontent.com/127110867/225048760-5512b02f-1afe-4678-add6-98f66dc8db72.png) ![image](https://user-images.githubusercontent.com/127110867/225048877-c990f570-dd8b-4d81-b650-54ddb3eb9624.png)
 
 
-![Clipboard](https://user-images.githubusercontent.com/41480459/225923649-6c638346-f737-4d2f-8bd4-8c853beab471.jpg)
-
-![Clipboard-1](https://user-images.githubusercontent.com/41480459/225924006-8c9935d8-25a6-470b-bb13-f070b961297c.jpg)
