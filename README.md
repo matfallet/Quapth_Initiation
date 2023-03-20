@@ -21,7 +21,7 @@ With the three dot you can Add or remove a annotation, remove all the annotation
 ![image](https://user-images.githubusercontent.com/127110867/226393521-72e82183-e2fc-4cd7-8aae-db278aa4cb96.png)
 
 
-The annotations can be prioritised, when you press on "insert in hierarchy", the annotation 
+
 
 
 ## Icon function 
@@ -47,6 +47,9 @@ Create a polygon. Double-click when finished.
 ![image](https://user-images.githubusercontent.com/127110867/225042065-a328453b-71b6-4c0b-a0ec-a6faa4406495.png) : Allows you to count the cells of the same class. If you want to count cells of another class, you can press "Add" in the window that opened when you started selecting cells. You can save the list of points to a file for future reference.
 
 ![image](https://user-images.githubusercontent.com/127110867/225261165-fa603c30-9744-474b-a909-863e4b67cec7.png) : When selected it prevents the creation of annotations but not modify the existing ones.
+
+The annotations can be prioritised, when you press on "insert in hierarchy", the annotation 
+
 
 ![image](https://user-images.githubusercontent.com/127110867/225261236-ef56c90d-59b7-4d97-9fd8-54679f882eee.png) : Select the channels and their brightness/contrast. You can change the channel name by double-clicking on the top or by using a script.   
 - Write the channel name as a "notepad or word" on the separate line. 
