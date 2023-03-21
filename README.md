@@ -76,9 +76,24 @@ The annotations can be prioritised, when you press on "insert in hierarchy", the
   - Insert in hierarchy : the annotation is integrate into a other annotation 
   - Edit single : "Make inverse" allows you to create an annotation with both annotations. 
 ![image](https://user-images.githubusercontent.com/127110867/226573034-495a7b90-7447-472f-a157-6736a02cf855.png)
+When many annotations are select there is a new function : "Edit multiple"
+  - Merge selected : allows you to merge the both annotation into one annotation, the one in the larger one is deleted 
+  - Substract selected : allows you to substract deux annotationss into one, but the last creation is deleted, the remaining one is left with one less piece ???? only the first annotation created remains. 
+The last annotation allows you to subtracting the two created annotations but keeping only the part of the two that was not subtracted at the last  
+
+![image](https://user-images.githubusercontent.com/127110867/226577083-9dc93d6d-025a-4ec8-9391-449f8c945b53.png)
 
 
-    Fonctionnel icon 
+
+  - Intersect selected : subtracting the two, only the piece in common between the two annotations remains
+
+![image](https://user-images.githubusercontent.com/127110867/226576846-9a36c657-31c3-4a82-8283-19842872583d.png)  ![image](https://user-images.githubusercontent.com/127110867/226576945-36b79b87-f3ed-4700-94d6-bf981fd263d0.png)
+
+
+
+
+
+    Fonctionnel icon   
 ![image](https://user-images.githubusercontent.com/127110867/225270911-3d6aaa16-1e73-40fe-89f9-007b77ae10d8.png) : Shows only the selected annotation(s).
 
 ![image](https://user-images.githubusercontent.com/127110867/225271644-87dd7076-f335-4b6c-b190-e256515e4c8c.png) : 
