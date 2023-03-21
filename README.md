@@ -12,16 +12,7 @@ For more informations about QuPath consult the website "https://qupath.readthedo
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type ("fluo","HE",..).
    - To reopen the project, click on "open project" and select "project".qpproj or drag and drop the project files directly into the sofware 
 
-When you right-click on the image, you can open, delete or rename it. You can also add notes using the "edit description" function. Have the name of the mask image, or create files with the name of the starting image.   ![image](https://user-images.githubusercontent.com/127110867/226588395-bba3dacf-1038-4308-80c6-0b98c8c6a647.png)
-
-
-![image](https://user-images.githubusercontent.com/127110867/226586747-b1ee0ed2-b3f2-4aac-91dd-94c7bc9337c7.png)
-
-
-
-
-
-
+When you right-click on the image, you can open, delete or rename it. You can also add notes using the "Edit description" function. Have the name of the mask image, or create files with the name of the starting image.   ![image](https://user-images.githubusercontent.com/127110867/226588395-bba3dacf-1038-4308-80c6-0b98c8c6a647.png)
 
 
 ### Properties of the image 
@@ -125,10 +116,17 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 ## Command menu
     File
-  - 
+  - Project : Same function as the operational tabs 
+  - Recent project : Open the recent project 
+  - Save : It is important to save your project every time, when you change the image you get a message to save. 
+....  
+    Edit  
+  - Copy to clipboard : Do some screenshots of just the software (main window screeshot) or the entire computer screen (full screenshot) 
+![image](https://user-images.githubusercontent.com/127110867/226589776-9baee48b-9228-4776-84ad-1648a8e83780.png)
 
+![image](https://user-images.githubusercontent.com/127110867/226590229-2101cee4-954c-4885-ac1d-3f5ec8229a89.png)
 
-
+![image](https://user-images.githubusercontent.com/127110867/226590372-602db8e6-40df-405a-970f-0950bd2a6cd3.png)
 
 
 
