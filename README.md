@@ -120,15 +120,20 @@ Displays the name of the annotations. To name an annotation, you need to go to t
   - Recent project : Open the recent project 
   - Save : It is important to save your project every time, when you change the image you get a message to save. 
 ....  
+
     Edit  
   - Copy to clipboard : Do some screenshots of just the software (main window screeshot) or the entire computer screen (full screenshot) 
-![image](https://user-images.githubusercontent.com/127110867/226589776-9baee48b-9228-4776-84ad-1648a8e83780.png)
 
-![image](https://user-images.githubusercontent.com/127110867/226590229-2101cee4-954c-4885-ac1d-3f5ec8229a89.png)
+    Tools 
+  - Functionnal keys 
 
-![image](https://user-images.githubusercontent.com/127110867/226590372-602db8e6-40df-405a-970f-0950bd2a6cd3.png)
-
-
+    View 
+  - You can see the recent commands 
+  - "Show channel viewer" allows you to see the different channels at the same time but separately 
+  - "Rotate image" allows you to rotate the image  
+  - Select what you want to see when there is a cells detection "Cell display - Nuclei only - Nuclei and cell boundaries - Centroids only"
+  - After there is a fonctionnel keys 
+  -  
 
 
 
