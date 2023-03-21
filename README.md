@@ -71,7 +71,11 @@ Create a polygon. Double-click when finished.
 
 ![image](https://user-images.githubusercontent.com/127110867/225261165-fa603c30-9744-474b-a909-863e4b67cec7.png) : When selected it prevents the creation of annotations but not modify the existing ones.
 
-The annotations can be prioritised, when you press on "insert in hierarchy", the annotation is integrate into a other annotation. 
+The annotations can be prioritised, when you press on "insert in hierarchy", the annotation is integrate into a other annotation. You can do that with many annotations. The three dots have differentes functions : 
+  - Unlock : allows to don't modified the annotation 
+  - Insert in hierarchy : the annotation is integrate into a other annotation 
+  - Edit single : "Make inverse" allows you to create an annotation with both annotations. 
+![image](https://user-images.githubusercontent.com/127110867/226573034-495a7b90-7447-472f-a157-6736a02cf855.png)
 
 
     Fonctionnel icon 
