@@ -12,11 +12,19 @@ For more informations about QuPath consult the website "https://qupath.readthedo
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type ("fluo","HE",..).
    - To reopen the project, click on "open project" and select "project".qpproj or drag and drop the project files directly into the sofware 
 
+When you right-click on the image, you can open, delete or rename it. You can also add notes using the "edit description" function. Have the name of the mask image, or create files with the name of the starting image.   ![image](https://user-images.githubusercontent.com/127110867/226588395-bba3dacf-1038-4308-80c6-0b98c8c6a647.png)
+
+
+![image](https://user-images.githubusercontent.com/127110867/226586747-b1ee0ed2-b3f2-4aac-91dd-94c7bc9337c7.png)
+
+
+
+
 ### Properties of the image 
 The "image" tab allows you to see the properties of the image. Like the name, the file, the size, the dimensions...  
 ![image](https://user-images.githubusercontent.com/127110867/226386290-bebeb45d-d614-4bba-ad70-cad681297709.png)
 
-    Image specific icon 
+    Image specific keys 
 ![image](https://user-images.githubusercontent.com/127110867/226399645-1c918eef-aac2-47e7-b616-dce61f7b54d7.png) : Allows you to make the left tools bar appear or disappear  
 
 ![image](https://user-images.githubusercontent.com/127110867/226399716-1dd33d56-df0f-4f32-be40-af8d9adabc6c.png) : Allows you to move image in all directions. You can also use the mouse scroll wheel for zooming. 
@@ -51,7 +59,7 @@ When you select annotation and you click on "Set class", your annotation have th
 With the three dot you can Add or remove a annotation, remove all the annotation except those used, export the channel name, or show/hide the classe selected (space bar can do it).  
 ![image](https://user-images.githubusercontent.com/127110867/226393521-72e82183-e2fc-4cd7-8aae-db278aa4cb96.png)
  
-    Annotation function icon
+    Annotation function keys
 ![image](https://user-images.githubusercontent.com/127110867/226398948-cc645e65-dfe3-44aa-80e4-35070b59821d.png) : Draws a rectangle annotation. (This annotation is saved in the "Annotation" tab). When this annotation is yellow, you can move it, but when it is red, you cannot move it unless you double-click inside. 
 
 ![image](https://user-images.githubusercontent.com/127110867/225034022-d21ac8d4-e381-4457-9b5b-6296d10e304b.png) : Ellipse annotation.
@@ -71,18 +79,17 @@ Create a polygon. Double-click when finished.
 
 ![image](https://user-images.githubusercontent.com/127110867/225261165-fa603c30-9744-474b-a909-863e4b67cec7.png) : When selected it prevents the creation of annotations but not modify the existing ones.
 
-The annotations can be prioritised, when you press on "insert in hierarchy", the annotation is integrate into a other annotation. You can do that with many annotations. The three dots have differentes functions : 
-  - Unlock : allows to don't modified the annotation 
-  - Insert in hierarchy : the annotation is integrate into a other annotation 
-  - Edit single : "Make inverse" allows you to create an annotation with both annotations. 
+The three dots have different functions: 
+  - Unlock: allows the annotation to remain unchanged 
+  - Insert in hierarchy: the annotation is integrated into another annotation 
+  - Edit single: "Make inverse" allows to create an annotation with both annotations. 
 ![image](https://user-images.githubusercontent.com/127110867/226573034-495a7b90-7447-472f-a157-6736a02cf855.png)
-When many annotations are select there is a new function : "Edit multiple"
-  - Merge selected : allows you to merge the both annotation into one annotation, the one in the larger one is deleted 
+When several annotations are selected, a new function is available: "Edit multiple".
+  - Merge selected : merges the two annotations into one, the one in the larger annotation being deleted.
   - Substract selected : allows you to substract deux annotationss into one, but the last creation is deleted, the remaining one is left with one less piece ???? only the first annotation created remains. 
 The last annotation allows you to subtracting the two created annotations but keeping only the part of the two that was not subtracted at the last  
 
-![image](https://user-images.githubusercontent.com/127110867/226577083-9dc93d6d-025a-4ec8-9391-449f8c945b53.png)
-
+![image](https://user-images.githubusercontent.com/127110867/226577083-9dc93d6d-025a-4ec8-9391-449f8c945b53.png)  ![image](https://user-images.githubusercontent.com/127110867/226581247-986ce506-f962-4653-b2d1-180e8294db99.png)
 
 
   - Intersect selected : subtracting the two, only the piece in common between the two annotations remains
@@ -93,7 +100,7 @@ The last annotation allows you to subtracting the two created annotations but ke
 
 
 
-    Fonctionnel icon   
+    Fonctionnel keys   
 ![image](https://user-images.githubusercontent.com/127110867/225270911-3d6aaa16-1e73-40fe-89f9-007b77ae10d8.png) : Shows only the selected annotation(s).
 
 ![image](https://user-images.githubusercontent.com/127110867/225271644-87dd7076-f335-4b6c-b190-e256515e4c8c.png) : 
@@ -107,13 +114,14 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 ![image](https://user-images.githubusercontent.com/127110867/225280507-b4a1c82c-52ef-4192-b15b-cc1074f8a6d9.png). Shows pixels classification in the overlay.
 
-
 ![image](https://user-images.githubusercontent.com/127110867/225280131-33b778e0-7887-49eb-b304-72ff20fa8e01.png) : overlay opacity (detections,..).
 
 ![image](https://user-images.githubusercontent.com/127110867/225280759-1ab602c2-45b3-4875-9acd-73678fd019d8.png) : Allows you to view measurements of TMAs, annotations or detections. 
 
 
-
+## Command menu
+    File
+  - 
 
 
 
