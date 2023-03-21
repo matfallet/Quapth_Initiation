@@ -20,6 +20,10 @@ When you right-click on the image, you can open, delete or rename it. You can al
 
 
 
+
+
+
+
 ### Properties of the image 
 The "image" tab allows you to see the properties of the image. Like the name, the file, the size, the dimensions...  
 ![image](https://user-images.githubusercontent.com/127110867/226386290-bebeb45d-d614-4bba-ad70-cad681297709.png)
