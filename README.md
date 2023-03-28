@@ -47,6 +47,9 @@ By pressing this key, you can see the whole image and freeze it. If you want to 
 
 ![image](https://user-images.githubusercontent.com/127110867/225286726-b4f89fe2-3d68-4132-bffa-ffa1b4f1312d.png) : Set software preferences.
 
+*Note :* there are 3 different objects created in this software: the annotation which contains the detections and the cells; the detection which is a mask only marking the outline of the cell; and a cell which is the representation of the whole cell with a nucleus and a cytoplasm. 
+
+
 ### Create a annotation 
 The "Annotation" tab allows you to see the created annotations in order. To change the name and colour of the annotation, simply right-click on the annotation and press "Set Properties". On the right hand side of the toolbar you see different classes defined by default. The classes can be changed, or deleted, some may be interesting to keep, like "None", which shows the unclassified cells, and "Ignore", is the class when classifying objects and the objects are not in the chosen class. You can add a classe, beacause when you want define a classe of the cells you need to create a classe before. 
 When you select annotation and you click on "Set class", your annotation have the name of the class. 
@@ -114,26 +117,27 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 
 ## Command menu
-    File
+
+    ###### File
   - Project : Same function as the operational tabs 
   - Recent project : Open the recent project 
   - Save : It is important to save your project every time, when you change the image you get a message to save. 
 
-    Edit  
+    ###### Edit  
   - Copy to clipboard : Do some screenshots of just the software (main window screeshot) or the entire computer screen (full screenshot) 
   
-    Tools 
+    ###### Tools 
   - Functionnal keys 
   
-    View 
+    ###### View 
   - You can see the recent commands 
   - "Show channel viewer" allows you to see the different channels at the same time but separately 
   - "Rotate image" allows you to rotate the image  
   - Select what you want to see when there is a cells detection "Cell display - Nuclei only - Nuclei and cell boundaries - Centroids only"
   - After there is a fonctionnel keys 
   -  ...
-  
-      Object 
+   
+    ###### Object 
   - Delete all the selected object or just annotation and detection
   - Select object 
   - Lock or unlock the object 
@@ -145,18 +149,18 @@ Displays the name of the annotations. To name an annotation, you need to go to t
       - Merge annotation togother 
       - Modify the shape by adding points with "Simplify shap"
 
-    Measure 
+    ###### Measure 
   - Choose what do you want to see during the measurement   ![image](https://user-images.githubusercontent.com/127110867/228238971-70d11fbb-4b74-4021-8ca5-ce2bb0d409c6.png)
   - Show annotation measurements or detection measurements 
   - "Grid views" -> "Annotation grid summary wiew" : allows  you to see the differents annotations, and the number of detection inside  ![image](https://user-images.githubusercontent.com/127110867/228241476-b678031d-cc49-4e58-870d-098378ce232d.png)
 
   - "Export measurement" : allows you to export the information of the image 
 
-    Automate
+    ###### Automate
   - "Show scrip editor" : allows you to create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/228241890-b8873e8a-e40d-4775-b733-69c4734ec771.png)
   - "show workflow command history" : allows you to create a script from your workflow by selecting or keeping all functions already used during your session
 
-    Analyse 
+    ###### Analyse 
   - "Cell detection" : you can create cells of the channel you want
       
 
