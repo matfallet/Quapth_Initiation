@@ -1,7 +1,6 @@
 # Qupath_Initiation
-cluster/phenotyping/interaction
 
-For more informations about QuPath consult the website "https://qupath.readthedocs.io/en/stable/index.html" or watch the videos in the plateform Github.com "..."
+For more informations about QuPath consult the website "https://qupath.readthedocs.io/en/stable/index.html" or watch the videos in Youtube "https://www.youtube.com/c/QuPath"
 
 ## Use of QuPath (version 0.4.1)
 ### Create a project 
@@ -12,7 +11,7 @@ For more informations about QuPath consult the website "https://qupath.readthedo
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type ("fluo","HE",..).
    - To reopen the project, click on "open project" and select "project".qpproj or drag and drop the project files directly into the sofware 
 
-When you right-click on the image, you can open, delete or rename it. You can also add notes using the "Edit description" function. Have the name of the mask image, or create files with the name of the starting image.   ![image](https://user-images.githubusercontent.com/127110867/226588395-bba3dacf-1038-4308-80c6-0b98c8c6a647.png)
+When you right-click on the image, you can open, delete or rename it. You can also add notes using the "Edit description" function. Have the name of the mask image, or create files with the name of the starting image.     ![image](https://user-images.githubusercontent.com/127110867/226588395-bba3dacf-1038-4308-80c6-0b98c8c6a647.png)
 
 
 ### Properties of the image 
@@ -49,7 +48,7 @@ By pressing this key, you can see the whole image and freeze it. If you want to 
 ![image](https://user-images.githubusercontent.com/127110867/225286726-b4f89fe2-3d68-4132-bffa-ffa1b4f1312d.png) : Set software preferences.
 
 ### Create a annotation 
-The "Annotation" tab allows you to see the created annotations in order. To change the name and colour of the annotation, simply right-click on the annotation and press "Set Properties". On the right hand side of the toolbar you see different classes defined by default. The classes can be changed, or deleted, some may be interesting to keep, like "None", which shows the unclassified cells. You can add a classe, beacause when you want define a classe of the cells you need to create a classe before. 
+The "Annotation" tab allows you to see the created annotations in order. To change the name and colour of the annotation, simply right-click on the annotation and press "Set Properties". On the right hand side of the toolbar you see different classes defined by default. The classes can be changed, or deleted, some may be interesting to keep, like "None", which shows the unclassified cells, and "Ignore", is the class when classifying objects and the objects are not in the chosen class. You can add a classe, beacause when you want define a classe of the cells you need to create a classe before. 
 When you select annotation and you click on "Set class", your annotation have the name of the class. 
 With the three dot you can Add or remove a annotation, remove all the annotation except those used, export the channel name, or show/hide the classe selected (space bar can do it).  
 ![image](https://user-images.githubusercontent.com/127110867/226393521-72e82183-e2fc-4cd7-8aae-db278aa4cb96.png)
@@ -64,15 +63,15 @@ With the three dot you can Add or remove a annotation, remove all the annotation
 ![image](https://user-images.githubusercontent.com/127110867/225035326-06cddf99-5d66-417c-8833-545ebf57a0bf.png) :
 Create a polygon. Double-click when finished. 
 
-![image](https://user-images.githubusercontent.com/127110867/225035459-4458d2f8-65a4-4634-8690-ed1b44f5b3ba.png) : Create a segmented or freehand line
+![image](https://user-images.githubusercontent.com/127110867/225035459-4458d2f8-65a4-4634-8690-ed1b44f5b3ba.png) : Creat a polyline annotattion, either by clicking individualpoints (with double-click to end) or clicking and dragging
 
 ![image](https://user-images.githubusercontent.com/127110867/225037603-e83a92da-da25-458b-9166-1e46f2a8f5b5.png) : Create an area with rounded corners. When you draw a large circle, you can fill in the inside of the circle.
 
-![image](https://user-images.githubusercontent.com/127110867/225038422-82a158ee-5c79-4edc-abf8-20034fe97cd1.png) : wand tool, set the sensitivty in preferences.
+![image](https://user-images.githubusercontent.com/127110867/225038422-82a158ee-5c79-4edc-abf8-20034fe97cd1.png) : Click and drag to draw with a wand tool. Adjust brightness/contrast or wand preferences to customize in the sensitivity and behavior. 
 
 ![image](https://user-images.githubusercontent.com/127110867/225042065-a328453b-71b6-4c0b-a0ec-a6faa4406495.png) : Allows you to count the cells of the same class. If you want to count cells of another class, you can press "Add" in the window that opened when you started selecting cells. You can save the list of points to a file for future reference.
 
-![image](https://user-images.githubusercontent.com/127110867/225261165-fa603c30-9744-474b-a909-863e4b67cec7.png) : When selected it prevents the creation of annotations but not modify the existing ones.
+![image](https://user-images.githubusercontent.com/127110867/225261165-fa603c30-9744-474b-a909-863e4b67cec7.png) : When this option is selected, it allows the protection of pre-excited annotations and prevents the creation of other annotations.
 
 The three dots have different functions: 
   - Unlock: allows the annotation to remain unchanged 
@@ -119,22 +118,47 @@ Displays the name of the annotations. To name an annotation, you need to go to t
   - Project : Same function as the operational tabs 
   - Recent project : Open the recent project 
   - Save : It is important to save your project every time, when you change the image you get a message to save. 
-....  
 
     Edit  
   - Copy to clipboard : Do some screenshots of just the software (main window screeshot) or the entire computer screen (full screenshot) 
-
+  
     Tools 
   - Functionnal keys 
-
+  
     View 
   - You can see the recent commands 
   - "Show channel viewer" allows you to see the different channels at the same time but separately 
   - "Rotate image" allows you to rotate the image  
   - Select what you want to see when there is a cells detection "Cell display - Nuclei only - Nuclei and cell boundaries - Centroids only"
   - After there is a fonctionnel keys 
-  -  
+  -  ...
+  
+      Object 
+  - Delete all the selected object or just annotation and detection
+  - Select object 
+  - Lock or unlock the object 
+  - In the obtion "Annotation" you can do more thing :
+      -  Create annotation (rectangle or eclipse) with your own mesure
+      - Insert into hierarchy just the selected annotation, or resolve hierarchy of all annotation
+      - Rotate your annotation with "transform annotations". 
+      - Duplicate or expand a annotation. 
+      - Merge annotation togother 
+      - Modify the shape by adding points with "Simplify shap"
 
+    Measure 
+  - Choose what do you want to see during the measurement   ![image](https://user-images.githubusercontent.com/127110867/228238971-70d11fbb-4b74-4021-8ca5-ce2bb0d409c6.png)
+  - Show annotation measurements or detection measurements 
+  - "Grid views" -> "Annotation grid summary wiew" : allows  you to see the differents annotations, and the number of detection inside  ![image](https://user-images.githubusercontent.com/127110867/228241476-b678031d-cc49-4e58-870d-098378ce232d.png)
+
+  - "Export measurement" : allows you to export the information of the image 
+
+    Automate
+  - "Show scrip editor" : allows you to create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/228241890-b8873e8a-e40d-4775-b733-69c4734ec771.png)
+  - "show workflow command history" : allows you to create a script from your workflow by selecting or keeping all functions already used during your session
+
+    Analyse 
+  - 
+      
 
 
 
