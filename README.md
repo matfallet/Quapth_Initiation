@@ -161,8 +161,10 @@ Displays the name of the annotations. To name an annotation, you need to go to t
   - "show workflow command history" : allows you to create a script from your workflow by selecting or keeping all functions already used during your session
 
     ###### Analyse 
-  - "Cell detection" : you can create cells of the channel you want
-      
+  - "Cell detection" : you can create cells or a detection of the channel you want
+      - "Positive cell detection" : create a cell affiliated to the "Positive" class
+      - "Subcellular detection" : detection of another channel in the cytoplasm of the cell 
+  - 
 
 
 
