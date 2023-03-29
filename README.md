@@ -95,8 +95,11 @@ The last annotation allows you to subtracting the two created annotations but ke
 ![image](https://user-images.githubusercontent.com/127110867/226576846-9a36c657-31c3-4a82-8283-19842872583d.png)  ![image](https://user-images.githubusercontent.com/127110867/226576945-36b79b87-f3ed-4700-94d6-bf981fd263d0.png)
 
 
+### Visualisation of the object hierarchy 
+The "Hierarchy" tab allows you to display the different object hierarchies, the number of the object present in the different annotations, the classifier affiliated to the object...
 
-
+### Workflow 
+The "Workflow" tab allows you to see the different functions used during your session. You can create a script with the different options.
 
     Fonctionnel keys   
 ![image](https://user-images.githubusercontent.com/127110867/225270911-3d6aaa16-1e73-40fe-89f9-007b77ae10d8.png) : Shows only the selected annotation(s).
@@ -176,6 +179,11 @@ Displays the name of the annotations. To name an annotation, you need to go to t
   - "Pixel classification" : Allows to classify some pixels 
   - 
 
+#### Extensions 
+  - Combined extensions with QuPath like Cellpose 
+
+#### Help 
+  - All the website for helping you 
 
 
 
