@@ -9,9 +9,10 @@ For more informations about QuPath consult the website "https://qupath.readthedo
   - Image format (compatible with Bioformat)
   - Selection the images with "Add images" or drag and drop directly the images in the software. 
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type ("fluo","HE",..).
-   - To reopen the project, click on "open project" and select "project".qpproj or drag and drop the project files directly into the sofware 
+   - To reopen the project, click on "open project" and select "project".qpproj or drag and drop the project files directly into the sofware. You can also affiliate the file to QuPath with the option "open with". 
 
-When you right-click on the image, you can open, delete or rename it. You can also add notes using the "Edit description" function. Have the name of the mask image, or create files with the name of the starting image.     ![image](https://user-images.githubusercontent.com/127110867/226588395-bba3dacf-1038-4308-80c6-0b98c8c6a647.png)
+When you right-click on the image, you can open, delete or rename it. You can also add notes using the "Edit description" function. Have the name of the mask image, or create files with the name of the starting image.   
+![image](https://user-images.githubusercontent.com/127110867/226588395-bba3dacf-1038-4308-80c6-0b98c8c6a647.png)
 
 
 ### Properties of the image 
@@ -133,7 +134,7 @@ Displays the name of the annotations. To name an annotation, you need to go to t
   - You can see the recent commands 
   - "Show channel viewer" allows you to see the different channels at the same time but separately 
   - "Rotate image" allows you to rotate the image  
-  - Select what you want to see when there is a cells detection "Cell display - Nuclei only - Nuclei and cell boundaries - Centroids only"
+  - Select what you want to see when there is a cells detection "Cell display - Nuclei only - Nuclei and cell boundaries - Centroids only", you can also do this with a right-click
   - After there is a fonctionnel keys 
   -  ...
    
@@ -142,7 +143,7 @@ Displays the name of the annotations. To name an annotation, you need to go to t
   - Select object 
   - Lock or unlock the object 
   - In the obtion "Annotation" you can do more thing :
-      -  Create annotation (rectangle or eclipse) with your own mesure
+      - "Specify annotation" : Create annotation (rectangle or eclipse) with your own mesure
       - Insert into hierarchy just the selected annotation, or resolve hierarchy of all annotation
       - Rotate your annotation with "transform annotations". 
       - Duplicate or expand a annotation. 
@@ -150,7 +151,7 @@ Displays the name of the annotations. To name an annotation, you need to go to t
       - Modify the shape by adding points with "Simplify shap"
 
 #### Measure 
-  - Choose what do you want to see during the measurement
+  - "Show measurement manager" : Choose what do you want to see during the measurement
   
     ![image](https://user-images.githubusercontent.com/127110867/228238971-70d11fbb-4b74-4021-8ca5-ce2bb0d409c6.png)
   - Show annotation measurements or detection measurements 
@@ -160,16 +161,20 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 #### Automate
   - "Show scrip editor" : allows you to create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/228241890-b8873e8a-e40d-4775-b733-69c4734ec771.png)
-  - "show workflow command history" : allows you to create a script from your workflow by selecting or keeping all functions already used during your session
+  - "Show workflow command history" : allows you to create a script from your workflow by selecting or keeping all functions already used during your session
+  - You can also import scrip directly in to the software 
 
 #### Analyse 
   - "Cell detection" : you can create cells or a detection of the channel you want
       - "Positive cell detection" : create a cell affiliated to the "Positive" class
       - "Subcellular detection" : detection of another channel in the cytoplasm of the cell 
   - 
+  - Create a "Density maps" : like a Heatmap 
 
-
-
+#### Classify 
+  - "Object classification" : Allows to classify or name a object
+  - "Pixel classification" : Allows to classify some pixels 
+  - 
 
 
 
@@ -193,6 +198,8 @@ Displays the name of the annotations. To name an annotation, you need to go to t
       Shortcut keys  
 - When you click into (1,2,3...) you can choose the channel
 - When you click into top or down arrow you can choose the Z-stack 
+- When you click into a letter you can choose the type of annotation : 
+
 ![image](https://user-images.githubusercontent.com/127110867/225045509-a3103c7b-ea3b-49a4-8c49-fb5c7f2fa941.png)   
 
 ALT Key : 
