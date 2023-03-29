@@ -81,7 +81,9 @@ The three dots have different functions:
   - Unlock: allows the annotation to remain unchanged 
   - Insert in hierarchy: the annotation is integrated into another annotation 
   - Edit single: "Make inverse" allows to create an annotation with both annotations. 
+
 ![image](https://user-images.githubusercontent.com/127110867/226573034-495a7b90-7447-472f-a157-6736a02cf855.png)
+
 When several annotations are selected, a new function is available: "Edit multiple".
   - Merge selected : merges the two annotations into one, the one in the larger annotation being deleted.
   - Substract selected : allows you to substract deux annotationss into one, but the last creation is deleted, the remaining one is left with one less piece ???? only the first annotation created remains. 
@@ -101,24 +103,7 @@ The "Hierarchy" tab allows you to display the different object hierarchies, the 
 ### Workflow 
 The "Workflow" tab allows you to see the different functions used during your session. You can create a script with the different options.
 
-    Fonctionnel keys   
-![image](https://user-images.githubusercontent.com/127110867/225270911-3d6aaa16-1e73-40fe-89f9-007b77ae10d8.png) : Shows only the selected annotation(s).
-
-![image](https://user-images.githubusercontent.com/127110867/225271644-87dd7076-f335-4b6c-b190-e256515e4c8c.png) : 
-Displays the name of the annotations. To name an annotation, you need to go to the "Annotation" tab and double-click on the annotation, then select "Set properties" and change the name. 
-
-![image](https://user-images.githubusercontent.com/127110867/225273685-638fe595-c9f0-46ef-8269-c63bd4051b67.png) : Shows the TMA grid in the viewer.
-
-![image](https://user-images.githubusercontent.com/127110867/225278991-be528b5c-0e8e-405f-80f3-bb9e4ff9e7e2.png) : Shows the contours detections or cells.
-
-![image](https://user-images.githubusercontent.com/127110867/225279318-a434b7cb-1fea-47ce-ac3d-0156965aa7d9.png) : Fills in detections or cells.
-
-![image](https://user-images.githubusercontent.com/127110867/225280507-b4a1c82c-52ef-4192-b15b-cc1074f8a6d9.png). Shows pixels classification in the overlay.
-
-![image](https://user-images.githubusercontent.com/127110867/225280131-33b778e0-7887-49eb-b304-72ff20fa8e01.png) : overlay opacity (detections,..).
-
-![image](https://user-images.githubusercontent.com/127110867/225280759-1ab602c2-45b3-4875-9acd-73678fd019d8.png) : Allows you to view measurements of TMAs, annotations or detections. 
-
+   
 
 ## Command menu
 
@@ -186,7 +171,24 @@ Displays the name of the annotations. To name an annotation, you need to go to t
   - All the website for helping you 
 
 
+    Fonctionnel keys   
 
+![image](https://user-images.githubusercontent.com/127110867/225270911-3d6aaa16-1e73-40fe-89f9-007b77ae10d8.png) : Shows only the selected annotation(s).
+
+![image](https://user-images.githubusercontent.com/127110867/225271644-87dd7076-f335-4b6c-b190-e256515e4c8c.png) : 
+Displays the name of the annotations. To name an annotation, you need to go to the "Annotation" tab and double-click on the annotation, then select "Set properties" and change the name. 
+
+![image](https://user-images.githubusercontent.com/127110867/225273685-638fe595-c9f0-46ef-8269-c63bd4051b67.png) : Shows the TMA grid in the viewer.
+
+![image](https://user-images.githubusercontent.com/127110867/225278991-be528b5c-0e8e-405f-80f3-bb9e4ff9e7e2.png) : Shows the contours detections or cells.
+
+![image](https://user-images.githubusercontent.com/127110867/225279318-a434b7cb-1fea-47ce-ac3d-0156965aa7d9.png) : Fills in detections or cells.
+
+![image](https://user-images.githubusercontent.com/127110867/225280507-b4a1c82c-52ef-4192-b15b-cc1074f8a6d9.png). Shows pixels classification in the overlay.
+
+![image](https://user-images.githubusercontent.com/127110867/225280131-33b778e0-7887-49eb-b304-72ff20fa8e01.png) : overlay opacity (detections,..).
+
+![image](https://user-images.githubusercontent.com/127110867/225280759-1ab602c2-45b3-4875-9acd-73678fd019d8.png) : Allows you to view measurements of TMAs, annotations or detections. 
 
 
 
