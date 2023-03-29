@@ -118,18 +118,18 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 ## Command menu
 
-    ###### File
+#### File
   - Project : Same function as the operational tabs 
   - Recent project : Open the recent project 
   - Save : It is important to save your project every time, when you change the image you get a message to save. 
 
-    ###### Edit  
+#### Edit  
   - Copy to clipboard : Do some screenshots of just the software (main window screeshot) or the entire computer screen (full screenshot) 
   
-    ###### Tools 
+#### Tools 
   - Functionnal keys 
   
-    ###### View 
+#### View 
   - You can see the recent commands 
   - "Show channel viewer" allows you to see the different channels at the same time but separately 
   - "Rotate image" allows you to rotate the image  
@@ -137,7 +137,7 @@ Displays the name of the annotations. To name an annotation, you need to go to t
   - After there is a fonctionnel keys 
   -  ...
    
-    ###### Object 
+#### Object
   - Delete all the selected object or just annotation and detection
   - Select object 
   - Lock or unlock the object 
@@ -149,18 +149,20 @@ Displays the name of the annotations. To name an annotation, you need to go to t
       - Merge annotation togother 
       - Modify the shape by adding points with "Simplify shap"
 
-    ###### Measure 
-  - Choose what do you want to see during the measurement   ![image](https://user-images.githubusercontent.com/127110867/228238971-70d11fbb-4b74-4021-8ca5-ce2bb0d409c6.png)
+#### Measure 
+  - Choose what do you want to see during the measurement
+  
+    ![image](https://user-images.githubusercontent.com/127110867/228238971-70d11fbb-4b74-4021-8ca5-ce2bb0d409c6.png)
   - Show annotation measurements or detection measurements 
   - "Grid views" -> "Annotation grid summary wiew" : allows  you to see the differents annotations, and the number of detection inside  ![image](https://user-images.githubusercontent.com/127110867/228241476-b678031d-cc49-4e58-870d-098378ce232d.png)
 
   - "Export measurement" : allows you to export the information of the image 
 
-    ###### Automate
+#### Automate
   - "Show scrip editor" : allows you to create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/228241890-b8873e8a-e40d-4775-b733-69c4734ec771.png)
   - "show workflow command history" : allows you to create a script from your workflow by selecting or keeping all functions already used during your session
 
-    ###### Analyse 
+#### Analyse 
   - "Cell detection" : you can create cells or a detection of the channel you want
       - "Positive cell detection" : create a cell affiliated to the "Positive" class
       - "Subcellular detection" : detection of another channel in the cytoplasm of the cell 
@@ -189,6 +191,8 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 
       Shortcut keys  
+- When you click into (1,2,3...) you can choose the channel
+- When you click into top or down arrow you can choose the Z-stack 
 ![image](https://user-images.githubusercontent.com/127110867/225045509-a3103c7b-ea3b-49a4-8c49-fb5c7f2fa941.png)   
 
 ALT Key : 
