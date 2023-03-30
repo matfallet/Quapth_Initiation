@@ -111,6 +111,7 @@ The "Workflow" tab allows you to see the different functions used during your se
   - Project : Same function as the operational tabs 
   - Recent project : Open the recent project 
   - Save : It is important to save your project every time, when you change the image you get a message to save. 
+  - Import and export some files......
 
 #### Edit  
   - Copy to clipboard : Do some screenshots of just the software (main window screeshot) or the entire computer screen (full screenshot) 
@@ -124,7 +125,7 @@ The "Workflow" tab allows you to see the different functions used during your se
   - "Rotate image" allows you to rotate the image  
   - Select what you want to see when there is a cells detection "Cell display - Nuclei only - Nuclei and cell boundaries - Centroids only", you can also do this with a right-click
   - After there is a fonctionnel keys 
-  -  ...
+  
    
 #### Object
   - Delete all the selected object or just annotation and detection
@@ -146,9 +147,11 @@ The "Workflow" tab allows you to see the different functions used during your se
   - "Grid views" -> "Annotation grid summary wiew" : allows  you to see the differents annotations, and the number of detection inside  ![image](https://user-images.githubusercontent.com/127110867/228241476-b678031d-cc49-4e58-870d-098378ce232d.png)
 
   - "Export measurement" : allows you to export the information of the image 
+  - "Show measurement maps": ... 
 
 #### Automate
   - "Show scrip editor" : allows you to create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/228241890-b8873e8a-e40d-4775-b733-69c4734ec771.png)
+  - "Script interperter" : ...
   - "Show workflow command history" : allows you to create a script from your workflow by selecting or keeping all functions already used during your session
   - You can also import scrip directly in to the software 
 
