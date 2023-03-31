@@ -100,7 +100,7 @@ When several annotations are selected, a new function is available: "Edit multip
 *Note :*  Ctrl Z will reset the last operation
 
 ### Visualisation of the object hierarchy 
-The "Hierarchy" tab allows you to display the different object hierarchies, the number of the object present in the different annotations, the classifier affiliated to the object...
+The "Hierarchy" tab  displays the different object hierarchies, the number of object present in the different annotations and the object class.
 
 ### Workflow 
 The "Workflow" tab allows you to see the different functions used during your session. You can create a script with the different options.
