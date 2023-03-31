@@ -79,8 +79,8 @@ Create a polygon. Double-click when finished.
 
 The three dots have different functions: 
   - Unlock: allows the annotation to remain unchanged 
-  - Insert in hierarchy: the annotation is integrated into another annotation 
-  - Edit single: "Make inverse" allows to create an annotation with both annotations. 
+  - Insert in hierarchy: the annotation is integrated into another annotation (if inside).  
+  - Edit single: "Make inverse" allows to create a complementary annotation of a child annotation from the parent annotation 
 
 ![image](https://user-images.githubusercontent.com/127110867/226573034-495a7b90-7447-472f-a157-6736a02cf855.png)
 
