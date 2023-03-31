@@ -84,10 +84,9 @@ The three dots have different functions:
 
 ![image](https://user-images.githubusercontent.com/127110867/226573034-495a7b90-7447-472f-a157-6736a02cf855.png)
 
-When several annotations are selected, a new function is available: "Edit multiple".
+When several annotations are selected, a new function is available: "Edit multiple" :
   - Merge selected : merge the annotations 
   - Substract selected : allows you to substract two annotations (take care in which order you select annotations)
-
 
 ![image](https://user-images.githubusercontent.com/127110867/226577083-9dc93d6d-025a-4ec8-9391-449f8c945b53.png)  ![image](https://user-images.githubusercontent.com/127110867/226581247-986ce506-f962-4653-b2d1-180e8294db99.png)
 
@@ -95,6 +94,7 @@ When several annotations are selected, a new function is available: "Edit multip
 
 ![image](https://user-images.githubusercontent.com/127110867/226576846-9a36c657-31c3-4a82-8283-19842872583d.png)  ![image](https://user-images.githubusercontent.com/127110867/226576945-36b79b87-f3ed-4700-94d6-bf981fd263d0.png)
 
+*Note :*  Ctrl Z will reset the last operation
 
 ### Visualisation of the object hierarchy 
 The "Hierarchy" tab allows you to display the different object hierarchies, the number of the object present in the different annotations, the classifier affiliated to the object...
