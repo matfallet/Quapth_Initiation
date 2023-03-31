@@ -110,70 +110,66 @@ The "Workflow" tab allows you to see the different functions used during your se
 ## Command menu
 
 #### File
-  - Project : Same function as the operational tabs 
+
   - Recent project : Open the recent project 
-  - Save : It is important to save your project every time, when you change the image you get a message to save. 
-  - Import and export some files......
+  - Save : It is important to save your project every time, when you change the image you get a message to save
+  - Export snapshot (main window content)
+  - Import objects and export objects (annotation, detections) in format Geojson
 
 #### Edit  
-  - Copy to clipboard : Do some screenshots of just the software (main window screeshot) or the entire computer screen (full screenshot) 
+  - Undo (Ctrl Z) 
   
 #### Tools 
-  - Functionnal keys 
+  As in toolbar
   
 #### View 
-  - You can see the recent commands 
+  -  Multiview
   - "Show channel viewer" allows you to see the different channels at the same time but separately 
   - "Rotate image" allows you to rotate the image  
   - Select what you want to see when there is a cells detection "Cell display - Nuclei only - Nuclei and cell boundaries - Centroids only", you can also do this with a right-click
-  - After there is a fonctionnel keys 
   
    
 #### Object
   - Delete all the selected object or just annotation and detection
-  - Select object 
-  - Lock or unlock the object 
-  - In the obtion "Annotation" you can do more thing :
+  - Select object by class
+  - In the option "Annotation" you can do more  :
       - "Specify annotation" : Create annotation (rectangle or eclipse) with your own mesure
-      - Insert into hierarchy just the selected annotation, or resolve hierarchy of all annotation
-      - Rotate your annotation with "transform annotations". 
-      - Duplicate or expand a annotation. 
-      - Merge annotation togother 
-      - Modify the shape by adding points with "Simplify shap"
+      - Insert into hierarchy just the selected annotation, or resolve hierarchy of all annotations
+      - Duplicate or expand/erode an annotation
+      - Merge annotation togother or split 
+      - Modify the shape with "Simplify shape" by creating points
 
 #### Measure 
-  - "Show measurement manager" : Choose what do you want to see during the measurement
+  -  "Show measurements map "
+  - "Show measurement manager" : Choose the parameters to measure
   
     ![image](https://user-images.githubusercontent.com/127110867/228238971-70d11fbb-4b74-4021-8ca5-ce2bb0d409c6.png)
   - Show annotation measurements or detection measurements 
   - "Grid views" -> "Annotation grid summary wiew" : allows  you to see the differents annotations, and the number of detection inside  ![image](https://user-images.githubusercontent.com/127110867/228241476-b678031d-cc49-4e58-870d-098378ce232d.png)
 
-  - "Export measurement" : allows you to export the information of the image 
-  - "Show measurement maps": ... 
-
+  - **"Export measurement"** :  export the annotations or detections measurements in csv
+  
 #### Automate
-  - "Show scrip editor" : allows you to create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/228241890-b8873e8a-e40d-4775-b733-69c4734ec771.png)
-  - "Script interperter" : ...
-  - "Show workflow command history" : allows you to create a script from your workflow by selecting or keeping all functions already used during your session
-  - You can also import scrip directly in to the software 
+  - "Show script editor" :  create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/228241890-b8873e8a-e40d-4775-b733-69c4734ec771.png)
+  - You can also import a script directly into the software or drag and drop (jar file can also be dragged and drop and will be installed in the extension folder)
 
 #### Analyse 
-  - "Cell detection" : you can create cells or a detection of the channel you want
-      - "Positive cell detection" : create a cell affiliated to the "Positive" class
-      - "Subcellular detection" : detection of another channel in the cytoplasm of the cell 
-  - 
-  - Create a "Density maps" : like a Heatmap 
+  - "Cell detection" : you can create detections or cells (cell expansion > 0)
+      - "Positive cell detection" : create cells that belong to the "Positive" class
+      - "Subcellular detection" : detection of subcellular objects in cells
+  -  Spatial analysis (distance cells to annotation,..)
+  - Create a "Density maps" from detections and finally an annotations by thresholding the maps
 
 #### Classify 
-  - "Object classification" : Allows to classify or name a object
-  - "Pixel classification" : Allows to classify some pixels 
+  - "Object classification" : Allows to classify detections/cells 
+  - "Pixel classification" : train pixel classifier or pixel thresholder to create automaticaly annotations
   - 
 
 #### Extensions 
   - Combined extensions with QuPath like Cellpose 
 
 #### Help 
-  - All the website for helping you 
+  - Documentations
 
 
     Fonctionnel keys   
