@@ -47,11 +47,14 @@ By pressing this key, you can see the whole image and freeze it. If you want to 
 ![image](https://user-images.githubusercontent.com/127110867/225281688-6033bcc0-51d6-4e9e-b351-9ce8a1a5c003.png) : Positioning a grid over the entire image.
 
 ![image](https://user-images.githubusercontent.com/127110867/225286726-b4f89fe2-3d68-4132-bffa-ffa1b4f1312d.png) : Set software preferences.
-
-*Note :* there are 3 different objects created in this software: **annotation** (region of tissue or others); **detections** which is a mask (nucleus or whole cell depending which channel you process) ; and **cells** which is a mask of the whole cell containing three compartments : nucleus, cytoplasm (or membrane) and the whole cell. 
-
-
+ 
 ### Create a annotation 
+
+*Note :* 
+By default, Qupath work only on current/selected annotation. If you want to create a full image annotation, you can use enter ctrl maj A.
+
+There are 3 different objects created in this software: **annotation** (region of tissue or others); **detections** which is a mask (nucleus or whole cell depending which channel you process) ; and **cells** which is a mask of the whole cell containing three compartments : nucleus, cytoplasm (or membrane) and the whole cell.
+
 The "Annotation" tab allows you to see the created annotations. To change the name and colour of the annotation, simply right-click on the annotation and press "Set Properties". On the right hand side of the toolbar you see different classes defined by default. Class "None", shows  unclassified cells (by default) and "Ignore", is the class corresponding to unclassified objects (below threshold) after classification process. You can add class corresponing to cell classes (LT, LB,..) or annotations classes (tumor, folicles). 
 When you select an annotation and a class and then click on "Set class", your annotation will belong to this the class. 
 With the three dot you can Add or remove an annotation, remove all the annotation except those used, export the channel name, or show/hide the classe selected (space bar can do it).  
