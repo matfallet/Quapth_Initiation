@@ -85,14 +85,13 @@ The three dots have different functions:
 ![image](https://user-images.githubusercontent.com/127110867/226573034-495a7b90-7447-472f-a157-6736a02cf855.png)
 
 When several annotations are selected, a new function is available: "Edit multiple".
-  - Merge selected : merges the two annotations into one, the one in the larger annotation being deleted.
-  - Substract selected : allows you to substract deux annotationss into one, but the last creation is deleted, the remaining one is left with one less piece ???? only the first annotation created remains. 
-The last annotation allows you to subtracting the two created annotations but keeping only the part of the two that was not subtracted at the last  
+  - Merge selected : merge the annotations 
+  - Substract selected : allows you to substract two annotations (take care in which order you select annotations)
+
 
 ![image](https://user-images.githubusercontent.com/127110867/226577083-9dc93d6d-025a-4ec8-9391-449f8c945b53.png)  ![image](https://user-images.githubusercontent.com/127110867/226581247-986ce506-f962-4653-b2d1-180e8294db99.png)
 
-
-  - Intersect selected : subtracting the two, only the piece in common between the two annotations remains
+  - Intersect selected : only the region in common will remain
 
 ![image](https://user-images.githubusercontent.com/127110867/226576846-9a36c657-31c3-4a82-8283-19842872583d.png)  ![image](https://user-images.githubusercontent.com/127110867/226576945-36b79b87-f3ed-4700-94d6-bf981fd263d0.png)
 
