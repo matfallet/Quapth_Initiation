@@ -6,7 +6,7 @@ For more informations about QuPath consult the website "https://qupath.readthedo
 ### Create a project 
   - Press "Create project" 
   - Create an empty directory
-  - Image format (compatible with Bioformat)
+  - Image format (compatible with Bioformat) : use only 2D image in fluorescence or coloration. Z stack images are readed but can be processed only slice by slice with specific script
   - Selection the images with "Add images" or drag and drop directly the images in the software. 
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type ("fluo","HE",..).
    - To reopen the project, click on "open project" and select "project".qpproj or drag and drop the project files directly into the sofware. You can also affiliate the file to QuPath with the option "open with". 
