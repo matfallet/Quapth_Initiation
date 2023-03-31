@@ -54,7 +54,7 @@ By pressing this key, you can see the whole image and freeze it. If you want to 
 ### Create a annotation 
 The "Annotation" tab allows you to see the created annotations in order. To change the name and colour of the annotation, simply right-click on the annotation and press "Set Properties". On the right hand side of the toolbar you see different classes defined by default. The classes can be changed, or deleted, some may be interesting to keep, like "None", which shows the unclassified cells, and "Ignore", is the class when classifying objects and the objects are not in the chosen class. You need to add class corresponing to cell classes (LT, LB,..) or regions classes (tumor, folicles,..). 
 When you select an annotation and a class and then click on "Set class", your annotation will belong to this the class. 
-With the three dot you can Add or remove a annotation, remove all the annotation except those used, export the channel name, or show/hide the classe selected (space bar can do it).  
+With the three dot you can Add or remove an annotation, remove all the annotation except those used, export the channel name, or show/hide the classe selected (space bar can do it).  
 ![image](https://user-images.githubusercontent.com/127110867/226393521-72e82183-e2fc-4cd7-8aae-db278aa4cb96.png)
  
     Annotation function keys
