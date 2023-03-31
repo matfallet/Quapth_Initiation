@@ -48,7 +48,7 @@ By pressing this key, you can see the whole image and freeze it. If you want to 
 
 ![image](https://user-images.githubusercontent.com/127110867/225286726-b4f89fe2-3d68-4132-bffa-ffa1b4f1312d.png) : Set software preferences.
 
-*Note :* there are 3 different objects created in this software: the annotation which contains the detections and the cells; the detection which is a mask only marking the outline of the cell; and a cell which is the representation of the whole cell with a nucleus and a cytoplasm. 
+*Note :* there are 3 different objects created in this software: **annotation** (region of tissue or others); **detections** which is a mask (nucleus or whole cell depending which channel you process) ; and **cells** which is a mask of the whole cell containing three compartments : nucleus, cytoplasm (or membrane) and the whole cell. 
 
 
 ### Create a annotation 
