@@ -32,7 +32,7 @@ The "image" tab allows you to see the properties of the image. Like the name, th
 - In the "Annotation" tab, on the right hand side, the channels name are in the column. If this is not the case, you can press the three small dots at the bottom right of the column and select "Populate from image channels".  
 -  The initial names of the channels are not lost, if you press the "Image" tab, and double-click on "Metadata changed" you can reset the names back.   
 
-Select the channel. To get the optimal intensity, you can play with the min and max bar of the graph.You can also use "Min display" or "Max display". The "Gamma" allows you to amplify the background signal.   
+Select the channel. To get the optimal intensity, you can play with the min and max bar of the graph.You can also use "Min display" or "Max display". The "Gamma" allows you to amplify low intensity signal.   
 ![image](https://user-images.githubusercontent.com/127110867/225268944-dd1a1a41-9899-412c-a72d-3207c6bf7415.png) ![image](https://user-images.githubusercontent.com/127110867/225268978-dad7ba74-91f8-4e5a-b69f-1e37d028b03c.png)
 
 ![image](https://user-images.githubusercontent.com/127110867/225269648-0ed7deef-2f6e-4a9c-9019-e91c26d1869e.png) : 
