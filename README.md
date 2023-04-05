@@ -4,15 +4,17 @@ For more informations about QuPath consult the website "https://qupath.readthedo
 
 ## Use of QuPath (version 0.4.1)
 ### Create a project 
-  - Press "Create project" 
+  - Press "Create project"   
+  ![image](https://user-images.githubusercontent.com/127110867/230054393-01c82036-e607-47db-9ea3-22c7c3a20cd8.png)
+
   - Create an empty directory
   - Selection the image format compatible with Bioformat : use only 2D image in fluorescence or coloration. Z stack images are readed but can be processed only slice by slice with specific script
   - Selection the images with "Add images" or drag and drop directly the images in the software. 
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type ("fluo","HE",..).
-   - To reopen the project, click on "open project" and select "project.qpproj" or drag and drop the project files directly into the sofware. You can also affiliate the file to QuPath with the option "open with". 
+   - To reopen the project, click on "open project" and select "project.qpproj" or drag and drop the project files directly into the sofware. You can also affiliate the file to QuPath with the option "open with". If you lose all the data in your file it is possible to recover them with "project.qpproj.backup". 
 
-When you right-click on the image, you can open, delete or rename it. You can also add notes using the "Edit description" function. Or have the name of the mask image, or create folder with the name of the starting image.  URI!!! 
-![image](https://user-images.githubusercontent.com/127110867/226588395-bba3dacf-1038-4308-80c6-0b98c8c6a647.png)
+By right-clicking on the image, you can open, delete or rename it. You can also add notes using the "Edit Description" function. Or have the name of the mask image, or create a folder with the name of the starting image using the "Sort By" -> "URI" option.  
+  ![image](https://user-images.githubusercontent.com/127110867/230065394-cdaca62a-abb2-4c83-87f2-aa5f87f8f94c.png)
 
 
 ### Properties of the image 
@@ -27,12 +29,12 @@ The "image" tab allows you to see the properties of the image. Like the name, th
 ![image](https://user-images.githubusercontent.com/127110867/225261236-ef56c90d-59b7-4d97-9fd8-54679f882eee.png) : Select the channels and their brightness/contrast. You can change the channel name by double-clicking on the top or by using a script.   
 - Write the channel name as a "notepad or word" on the separate line. 
 - Copy the lines and select all channels at once and press "Clrl+V"  
-![image](https://user-images.githubusercontent.com/127110867/225262038-e164f93b-8b36-4ad5-87c5-087996baed33.png) ![image](https://user-images.githubusercontent.com/127110867/225263469-21f7d51a-f7fb-40c2-a2be-10d4bf263a9f.png)
+![image](https://user-images.githubusercontent.com/127110867/230066475-06620c57-5bef-4429-99b4-543724616673.png) ![image](https://user-images.githubusercontent.com/127110867/230066889-e58cd52e-d1db-4dd1-b230-33a66d20bd68.png)
 
 - In the "Annotation" tab, on the right hand side, the channels name are in the column. If this is not the case, you can press the three small dots at the bottom right of the column and select "Populate from image channels".  
 -  The initial names of the channels are not lost, if you press the "Image" tab, and double-click on "Metadata changed" you can reset the names back.   
 
--   To get the optimal intensity, you can play with "Min display" or "Max display". The "Gamma" allows you to amplify low intensity signal.   
+-  To get the optimal intensity, you can play with "Min display" or "Max display". The "Gamma" allows you to amplify low intensity signal.   
 
 ![image](https://user-images.githubusercontent.com/127110867/225269648-0ed7deef-2f6e-4a9c-9019-e91c26d1869e.png) : 
 By pressing this key, you can see the whole image and freeze it. If you want to move again or to zoom, you have to press the button again.
@@ -53,10 +55,10 @@ By default, Qupath work only on current/selected annotation. If you want to crea
 
 There are 3 different objects created in this software: **annotation** (region of tissue or others); **detections** which is a mask (nucleus or whole cell depending which channel you process) ; and **cells** which is a mask of the whole cell containing three compartments : nucleus, cytoplasm (or membrane) and the whole cell.
 
-The "Annotation" tab allows you to see the created annotations. To change the name and colour of the annotation, simply right-click on the annotation and press "Set Properties". On the right hand side of the toolbar you see different classes defined by default. Class "None", shows  unclassified cells (by default) and "Ignore", is the class corresponding to unclassified objects (below threshold) after classification process. You can add class corresponing to cell classes (LT, LB,..) or annotations classes (tumor, folicles). 
+The "Annotation" tab allows you to see the annotations you have created. To change the name and colour of the annotation, simply right-click on the annotation and click on "Set Properties". On the right side of the toolbar you see different classes defined by default. The class "None/Unclassified" shows the unclassified cells (by default) and "Ignore" is the class corresponding to the unclassified objects (below the threshold) after the classification process. You can add classes corresponding to cell classes (LT, LB,..) or annotation classes (tumour, follicles). You can also "lock" the annotation so that it is not modified. 
 When you select an annotation and a class and then click on "Set class", your annotation will belong to this the class. 
 With the three dot you can Add or remove an annotation, remove all the annotation except those used, export the channel name, or show/hide the classe selected (space bar can do it).  
-![image](https://user-images.githubusercontent.com/127110867/226393521-72e82183-e2fc-4cd7-8aae-db278aa4cb96.png)
+![image](https://user-images.githubusercontent.com/127110867/230066173-f749036a-c0a7-4db6-b3b8-3c681ae2470e.png)
  
     Annotation function keys
 ![image](https://user-images.githubusercontent.com/127110867/226398948-cc645e65-dfe3-44aa-80e4-35070b59821d.png) : Draws a rectangle annotation. (This annotation is saved in the "Annotation" tab). When this annotation is yellow, you can move it, but when it is red, you cannot move it unless you double-click inside. 
@@ -83,7 +85,7 @@ The three dots have different functions:
   - Insert in hierarchy: the annotation is integrated into another annotation (if inside).  
   - Edit single: "Make inverse" allows to create a complementary annotation of a child annotation from the parent annotation 
 
-![image](https://user-images.githubusercontent.com/127110867/226573034-495a7b90-7447-472f-a157-6736a02cf855.png)
+![image](https://user-images.githubusercontent.com/127110867/230067724-d06f6db4-7964-4eea-99a9-40a059130c58.png)
 
 When several annotations are selected, a new function is available: "Edit multiple" :
   - Merge selected : merge the annotations 
@@ -99,6 +101,8 @@ When several annotations are selected, a new function is available: "Edit multip
 
 ### Visualisation of the object hierarchy 
 The "Hierarchy" tab  displays the different object hierarchies, the number of object present in the different annotations and the object class.
+  ![image](https://user-images.githubusercontent.com/127110867/230068125-dfb569e5-4748-4aab-8d8a-de9d9e1e7cf2.png)
+
 
 ### Workflow 
 The "Workflow" tab allows you to see the different functions used during your session. You can create a script with the different options.
@@ -118,10 +122,10 @@ The "Workflow" tab allows you to see the different functions used during your se
   - Undo (Ctrl Z) 
   
 #### Tools 
-  As in toolbar
+  - As in toolbar
   
 #### View 
-  - Multiview !!!!!
+  - Multiview : Insert columns or rows to view images at the same time, you can also do this with a right-click
   - "Show channel viewer" allows you to see the different channels at the same time but separately 
   - "Rotate image" allows you to rotate the image  
   - Select what you want to see when there is a cells detection "Cell display - Nuclei only - Nuclei and cell boundaries - Centroids only", you can also do this with a right-click
@@ -130,15 +134,15 @@ The "Workflow" tab allows you to see the different functions used during your se
 #### Object
   - Delete all the selected object or just annotation and detection
   - Select object by class
-  - In the option "Annotation" you can do more  :
-      -"Specify annotation" : Create annotation (rectangle or eclipse) with your own mesure
-      -Insert into hierarchy just the selected annotation, or resolve hierarchy of all annotations
-      -Duplicate or expand/erode an annotation
-      -Merge annotation togother or split 
+  - In the option "Annotation" you can do more  :  
+      -"Specify annotation" : Create annotation (rectangle or eclipse) with your own mesure  
+      -Insert into hierarchy just the selected annotation, or resolve hierarchy of all annotations  
+      -Duplicate or expand/erode an annotation  
+      -Merge annotation togother or split   
       -Modify the shape with "Simplify shape" by creating points
 
 #### Measure 
-  - "Show measurements map " : 
+  - "Show measurements map " : Allows you to assign a colour to cells or detections with different distances (near/far)
   - "Show measurement manager" : Choose the parameters to measure
   
     ![image](https://user-images.githubusercontent.com/127110867/228238971-70d11fbb-4b74-4021-8ca5-ce2bb0d409c6.png)
@@ -170,7 +174,14 @@ The "Workflow" tab allows you to see the different functions used during your se
   - Documentations
 
 
-    Fonctionnel keys   
+
+
+
+
+
+
+
+    Fonctionnel keys  
 
 ![image](https://user-images.githubusercontent.com/127110867/225270911-3d6aaa16-1e73-40fe-89f9-007b77ae10d8.png) : Shows only the selected annotation(s).
 
