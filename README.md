@@ -6,17 +6,17 @@ For more informations about QuPath consult the website "https://qupath.readthedo
 ### Create a project 
   - Press "Create project" 
   - Create an empty directory
-  - Image format (compatible with Bioformat) : use only 2D image in fluorescence or coloration. Z stack images are readed but can be processed only slice by slice with specific script
+  - Selection the image format compatible with Bioformat : use only 2D image in fluorescence or coloration. Z stack images are readed but can be processed only slice by slice with specific script
   - Selection the images with "Add images" or drag and drop directly the images in the software. 
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type ("fluo","HE",..).
-   - To reopen the project, click on "open project" and select "project".qpproj or drag and drop the project files directly into the sofware. You can also affiliate the file to QuPath with the option "open with". 
+   - To reopen the project, click on "open project" and select "project.qpproj" or drag and drop the project files directly into the sofware. You can also affiliate the file to QuPath with the option "open with". 
 
-When you right-click on the image, you can open, delete or rename it. You can also add notes using the "Edit description" function. Have the name of the mask image, or create files with the name of the starting image.   
+When you right-click on the image, you can open, delete or rename it. You can also add notes using the "Edit description" function. Or have the name of the mask image, or create folder with the name of the starting image.  URI!!! 
 ![image](https://user-images.githubusercontent.com/127110867/226588395-bba3dacf-1038-4308-80c6-0b98c8c6a647.png)
 
 
 ### Properties of the image 
-The "image" tab allows you to see the properties of the image. Like the name, the file, the size, the dimensions...  
+The "image" tab allows you to see the properties of the image. Like the name, the file, the pixel size, the dimensions...  
 ![image](https://user-images.githubusercontent.com/127110867/226386290-bebeb45d-d614-4bba-ad70-cad681297709.png)
 
     Image specific keys 
@@ -32,8 +32,7 @@ The "image" tab allows you to see the properties of the image. Like the name, th
 - In the "Annotation" tab, on the right hand side, the channels name are in the column. If this is not the case, you can press the three small dots at the bottom right of the column and select "Populate from image channels".  
 -  The initial names of the channels are not lost, if you press the "Image" tab, and double-click on "Metadata changed" you can reset the names back.   
 
--   To get the optimal intensity, you can play with the min and max bar of the graph.You can also use "Min display" or "Max display". The "Gamma" allows you to amplify low intensity signal.   
-![image](https://user-images.githubusercontent.com/127110867/225268944-dd1a1a41-9899-412c-a72d-3207c6bf7415.png) ![image](https://user-images.githubusercontent.com/127110867/225268978-dad7ba74-91f8-4e5a-b69f-1e37d028b03c.png)
+-   To get the optimal intensity, you can play with "Min display" or "Max display". The "Gamma" allows you to amplify low intensity signal.   
 
 ![image](https://user-images.githubusercontent.com/127110867/225269648-0ed7deef-2f6e-4a9c-9019-e91c26d1869e.png) : 
 By pressing this key, you can see the whole image and freeze it. If you want to move again or to zoom, you have to press the button again.
@@ -50,7 +49,6 @@ By pressing this key, you can see the whole image and freeze it. If you want to 
  
 ### Create a annotation 
 
-*Note :* 
 By default, Qupath work only on current/selected annotation. If you want to create a full image annotation, you can use enter ctrl maj A.
 
 There are 3 different objects created in this software: **annotation** (region of tissue or others); **detections** which is a mask (nucleus or whole cell depending which channel you process) ; and **cells** which is a mask of the whole cell containing three compartments : nucleus, cytoplasm (or membrane) and the whole cell.
@@ -123,7 +121,7 @@ The "Workflow" tab allows you to see the different functions used during your se
   As in toolbar
   
 #### View 
-  -  Multiview
+  - Multiview !!!!!
   - "Show channel viewer" allows you to see the different channels at the same time but separately 
   - "Rotate image" allows you to rotate the image  
   - Select what you want to see when there is a cells detection "Cell display - Nuclei only - Nuclei and cell boundaries - Centroids only", you can also do this with a right-click
@@ -133,14 +131,14 @@ The "Workflow" tab allows you to see the different functions used during your se
   - Delete all the selected object or just annotation and detection
   - Select object by class
   - In the option "Annotation" you can do more  :
-      - "Specify annotation" : Create annotation (rectangle or eclipse) with your own mesure
-      - Insert into hierarchy just the selected annotation, or resolve hierarchy of all annotations
-      - Duplicate or expand/erode an annotation
-      - Merge annotation togother or split 
-      - Modify the shape with "Simplify shape" by creating points
+      -"Specify annotation" : Create annotation (rectangle or eclipse) with your own mesure
+      -Insert into hierarchy just the selected annotation, or resolve hierarchy of all annotations
+      -Duplicate or expand/erode an annotation
+      -Merge annotation togother or split 
+      -Modify the shape with "Simplify shape" by creating points
 
 #### Measure 
-  -  "Show measurements map "
+  - "Show measurements map " : 
   - "Show measurement manager" : Choose the parameters to measure
   
     ![image](https://user-images.githubusercontent.com/127110867/228238971-70d11fbb-4b74-4021-8ca5-ce2bb0d409c6.png)
