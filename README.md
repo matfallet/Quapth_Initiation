@@ -1,5 +1,8 @@
 # Qupath_Initiation
 
+![Qupath](https://user-images.githubusercontent.com/127110867/230375253-a976740b-cfd1-4065-9acd-0246424c009a.png)
+
+
 For more informations about QuPath consult the website "https://qupath.readthedocs.io/en/stable/index.html" or watch the videos in Youtube "https://www.youtube.com/c/QuPath"
 
 ## Use of QuPath (version 0.4.1)
@@ -103,7 +106,7 @@ When several annotations are selected, a new function is available: "Edit multip
 ### Visualisation of the object hierarchy 
 The "Hierarchy" tab displays the different object hierarchies, the number of objects present in the different annotations and the object class:  
 A region included in another region is considered a child annotation. Resolving the hierarchy creates the hierarchy between the annotations   
-  ![image](https://user-images.githubusercontent.com/127110867/230068125-dfb569e5-4748-4aab-8d8a-de9d9e1e7cf2.png)
+  ![image](https://user-images.githubusercontent.com/127110867/230376007-f88a35d4-43c8-45e5-bd41-7ba7c5211368.png)
 
 
 ### Workflow 
