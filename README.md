@@ -8,12 +8,12 @@ For more informations about QuPath consult the website "https://qupath.readthedo
   ![image](https://user-images.githubusercontent.com/127110867/230054393-01c82036-e607-47db-9ea3-22c7c3a20cd8.png)
 
   - Create an empty directory
-  - Selection the image format compatible with Bioformat : use only 2D image in fluorescence or coloration. Z stack images are readed but can be processed only slice by slice with specific script
-  - Selection the images with "Add images" or drag and drop directly the images in the software. 
+  - Select the image format compatible with Bioformat : use only 2D image in fluorescence or coloration. Z stack images are readeable but can be processed only slice by slice with specific script
+  - Select the images with "Add images" or drag and drop directly the images in the software. 
    - By double-clicking on the selected image, a "set image type" window opens. Select the appropriate image type ("fluo","HE",..).
    - To reopen the project, click on "open project" and select "project.qpproj" or drag and drop the project files directly into the sofware. You can also affiliate the file to QuPath with the option "open with". If you lose all the data in your file it is possible to recover them with "project.qpproj.backup". 
-
-By right-clicking on the image, you can open, delete or rename it. You can also add notes using the "Edit Description" function. Or have the name of the mask image, or create a folder with the name of the starting image using the "Sort By" -> "URI" option.  
+  - You can move the directory of your project, if the images are in the directory of your project, you will have to update the URL of the image which is displayed in red in the "Image" tab, just double click it to update it. 
+By right-clicking on the image, you can open, delete or rename it. You can also add notes using the "Edit Description" function. Or create a folder with the name of the starting image using the "Sort By" -> "URI" option.  
   ![image](https://user-images.githubusercontent.com/127110867/230065394-cdaca62a-abb2-4c83-87f2-aa5f87f8f94c.png)
 
 
@@ -22,16 +22,17 @@ The "image" tab allows you to see the properties of the image. Like the name, th
 ![image](https://user-images.githubusercontent.com/127110867/226386290-bebeb45d-d614-4bba-ad70-cad681297709.png)
 
     Image specific keys 
-![image](https://user-images.githubusercontent.com/127110867/226399645-1c918eef-aac2-47e7-b616-dce61f7b54d7.png) : Allows you to make the left tools bar appear or disappear  
+![image](https://user-images.githubusercontent.com/127110867/226399645-1c918eef-aac2-47e7-b616-dce61f7b54d7.png) : Allows you to make the left interface appear or disappear  
 
 ![image](https://user-images.githubusercontent.com/127110867/226399716-1dd33d56-df0f-4f32-be40-af8d9adabc6c.png) : Allows you to move image in all directions. You can also use the mouse scroll wheel for zooming. 
     
 ![image](https://user-images.githubusercontent.com/127110867/225261236-ef56c90d-59b7-4d97-9fd8-54679f882eee.png) : Select the channels and their brightness/contrast. You can change the channel name by double-clicking on the top or by using a script.   
+![image](https://user-images.githubusercontent.com/127110867/230066475-06620c57-5bef-4429-99b4-543724616673.png)
 - Write the channel name as a "notepad or word" on the separate line. 
 - Copy the lines and select all channels at once and press "Clrl+V"  
-![image](https://user-images.githubusercontent.com/127110867/230066475-06620c57-5bef-4429-99b4-543724616673.png) ![image](https://user-images.githubusercontent.com/127110867/230066889-e58cd52e-d1db-4dd1-b230-33a66d20bd68.png)
+ ![image](https://user-images.githubusercontent.com/127110867/230362762-dd2ebdd9-ca40-412d-be3f-8e95b3429b41.png)
 
-- In the "Annotation" tab, on the right hand side, the channels name are in the column. If this is not the case, you can press the three small dots at the bottom right of the column and select "Populate from image channels".  
+- In the "Annotation" tab, there are classes, you can press the three small dots at the bottom right of the column and select "Populate from image channels" to create classes names from your channel.  
 -  The initial names of the channels are not lost, if you press the "Image" tab, and double-click on "Metadata changed" you can reset the names back.   
 
 -  To get the optimal intensity, you can play with "Min display" or "Max display". The "Gamma" allows you to amplify low intensity signal.   
@@ -47,17 +48,17 @@ By pressing this key, you can see the whole image and freeze it. If you want to 
 
 ![image](https://user-images.githubusercontent.com/127110867/225281688-6033bcc0-51d6-4e9e-b351-9ce8a1a5c003.png) : Positioning a grid over the entire image.
 
-![image](https://user-images.githubusercontent.com/127110867/225286726-b4f89fe2-3d68-4132-bffa-ffa1b4f1312d.png) : Set software preferences.
+![image](https://user-images.githubusercontent.com/127110867/225286726-b4f89fe2-3d68-4132-bffa-ffa1b4f1312d.png) : Set software preferences (live width detection...).
  
-### Create a annotation 
+### Create annotations 
 
 By default, Qupath work only on current/selected annotation. If you want to create a full image annotation, you can use enter ctrl maj A.
 
-There are 3 different objects created in this software: **annotation** (region of tissue or others); **detections** which is a mask (nucleus or whole cell depending which channel you process) ; and **cells** which is a mask of the whole cell containing three compartments : nucleus, cytoplasm (or membrane) and the whole cell.
+There are 3 different objects created in this software: **annotation** (region of tissue); **detections** which are a mask (nucleus or whole cell depending which channel you process) ; and **cells** which is a mask of the whole cell containing three compartments : nucleus, cytoplasm (or membrane) and the whole cell.
 
-The "Annotation" tab allows you to see the annotations you have created. To change the name and colour of the annotation, simply right-click on the annotation and click on "Set Properties". On the right side of the toolbar you see different classes defined by default. The class "None/Unclassified" shows the unclassified cells (by default) and "Ignore" is the class corresponding to the unclassified objects (below the threshold) after the classification process. You can add classes corresponding to cell classes (LT, LB,..) or annotation classes (tumour, follicles). You can also "lock" the annotation so that it is not modified. 
-When you select an annotation and a class and then click on "Set class", your annotation will belong to this the class. 
-With the three dot you can Add or remove an annotation, remove all the annotation except those used, export the channel name, or show/hide the classe selected (space bar can do it).  
+The "Annotation" tab allows you to see the annotations you have created. To change the name and colour of the annotation, simply right-click on the annotation and click on "Set Properties". On the right side of the toolbar you see different classes defined by default. The class "None/Unclassified" shows the unclassified cells (by default) and "Ignore" is the class corresponding to the unclassified objects (below the threshold) after the classification process. You can add classes corresponding to cell classes (LT, LB,..) or annotation classes (tumour, follicles). You can also "lock" the annotation so that it cannot be modified.   
+When you select an annotation and a class and then click on "Set class", your annotation will belong to this the class.   
+With the three dots you can Add or remove an annotation, remove all the annotation except those used, export the channel name, or show/hide the classe selected (space bar can do it).  
 ![image](https://user-images.githubusercontent.com/127110867/230066173-f749036a-c0a7-4db6-b3b8-3c681ae2470e.png)
  
     Annotation function keys
@@ -70,17 +71,17 @@ With the three dot you can Add or remove an annotation, remove all the annotatio
 ![image](https://user-images.githubusercontent.com/127110867/225035326-06cddf99-5d66-417c-8833-545ebf57a0bf.png) :
 Create a polygon. Double-click when finished. 
 
-![image](https://user-images.githubusercontent.com/127110867/225035459-4458d2f8-65a4-4634-8690-ed1b44f5b3ba.png) : Creat a polyline annotattion, either by clicking individualpoints (with double-click to end) or clicking and dragging
+![image](https://user-images.githubusercontent.com/127110867/225035459-4458d2f8-65a4-4634-8690-ed1b44f5b3ba.png) : Creat a polyline annotation, either by clicking individual points (with double-click to end) or clicking and dragging
 
-![image](https://user-images.githubusercontent.com/127110867/225037603-e83a92da-da25-458b-9166-1e46f2a8f5b5.png) : Create an area with rounded corners. When you draw a large circle, you can fill in the inside of the circle.
+![image](https://user-images.githubusercontent.com/127110867/225037603-e83a92da-da25-458b-9166-1e46f2a8f5b5.png) : Create an area with rounded corners. When you draw a large circle, you can fill inside the circle.
 
-![image](https://user-images.githubusercontent.com/127110867/225038422-82a158ee-5c79-4edc-abf8-20034fe97cd1.png) : Click and drag to draw with a wand tool. Adjust brightness/contrast or wand preferences to customize in the sensitivity and behavior. 
+![image](https://user-images.githubusercontent.com/127110867/225038422-82a158ee-5c79-4edc-abf8-20034fe97cd1.png) : Click and drag to draw with a wand tool. Adjust brightness/contrast or wand preferences to customize the sensitivity and behavior, (wand sensitivity or smoothing).
 
-![image](https://user-images.githubusercontent.com/127110867/225042065-a328453b-71b6-4c0b-a0ec-a6faa4406495.png) : Allows you to count the cells of the same class. If you want to count cells of another class, you can press "Add" in the window that opened when you started selecting cells. You can save the list of points to a file for future reference.
+![image](https://user-images.githubusercontent.com/127110867/225042065-a328453b-71b6-4c0b-a0ec-a6faa4406495.png) : Count mannuly cells of the same class. If you want to count cells of another class, you can press "Add". You can save the list of points.
 
 ![image](https://user-images.githubusercontent.com/127110867/225261165-fa603c30-9744-474b-a909-863e4b67cec7.png) : When this option is selected, it allows the protection of pre-excited annotations and prevents the creation of other annotations.
 
-The three dots have different functions: 
+The three dots or right click on annotation have different functions: 
   - Unlock: allows the annotation to remain unchanged 
   - Insert in hierarchy: the annotation is integrated into another annotation (if inside).  
   - Edit single: "Make inverse" allows to create a complementary annotation of a child annotation from the parent annotation 
@@ -100,7 +101,8 @@ When several annotations are selected, a new function is available: "Edit multip
 *Note :*  Ctrl Z will reset the last operation
 
 ### Visualisation of the object hierarchy 
-The "Hierarchy" tab  displays the different object hierarchies, the number of object present in the different annotations and the object class.
+The "Hierarchy" tab displays the different object hierarchies, the number of objects present in the different annotations and the object class:  
+A region included in another region is considered a child annotation. Resolving the hierarchy creates the hierarchy between the annotations   
   ![image](https://user-images.githubusercontent.com/127110867/230068125-dfb569e5-4748-4aab-8d8a-de9d9e1e7cf2.png)
 
 
@@ -138,19 +140,20 @@ The "Workflow" tab allows you to see the different functions used during your se
       -"Specify annotation" : Create annotation (rectangle or eclipse) with your own mesure  
       -Insert into hierarchy just the selected annotation, or resolve hierarchy of all annotations  
       -Duplicate or expand/erode an annotation  
-      -Merge annotation togother or split   
-      -Modify the shape with "Simplify shape" by creating points
+      -Merge annotation together or split   
+      -Modify the shape with "Simplify shape" by creating a polygon
 
 #### Measure 
-  - "Show measurements map " : Allows you to assign a colour to cells or detections with different distances (near/far)
+  - "Show measurements map " : Assign a colour to cells or detections for measurements (area, distance,...)  
+  ![image](https://user-images.githubusercontent.com/127110867/230372071-3c8c5287-1b31-4fe2-b416-66852dd0db01.png)
+
   - "Show measurement manager" : Choose the parameters to measure
-  
-    ![image](https://user-images.githubusercontent.com/127110867/228238971-70d11fbb-4b74-4021-8ca5-ce2bb0d409c6.png)
   - Show annotation measurements or detection measurements 
-  - "Grid views" -> "Annotation grid summary wiew" : allows  you to see the differents annotations, and the number of detection inside  ![image](https://user-images.githubusercontent.com/127110867/228241476-b678031d-cc49-4e58-870d-098378ce232d.png)
+  - "Grid views" -> "Annotation grid summary wiew" : See the differents annotations, and the number of detection inside 
 
   - **"Export measurement"** :  export the annotations or detections measurements in csv
-  
+  ![image](https://user-images.githubusercontent.com/127110867/230372909-96b3e056-8a76-4b5e-b06d-64e7230fdf1a.png)
+
 #### Automate
   - "Show script editor" :  create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/228241890-b8873e8a-e40d-4775-b733-69c4734ec771.png)
   - You can also import a script directly into the software or drag and drop (jar file can also be dragged and drop and will be installed in the extension folder)
