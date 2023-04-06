@@ -156,7 +156,7 @@ The "Workflow" tab allows you to see the different functions used during your se
 
 
 #### Automate
-  - "Show script editor" :  create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/230374039-55dca3c7-3635-46e2-aec0-d8aa8d64b4df.png)
+  - "Show script editor" :  create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/230374946-8d89b8a8-cce4-48b1-9c93-52e3af293616.png)
   - You can also import a script directly into the software or drag and drop. Some script need extansion programme in Java. Jar file can also be dragged and drop and will be installed in the extension folder.
   - The "Run in project" function allows to run the script on all your images. 
 
@@ -170,7 +170,6 @@ The "Workflow" tab allows you to see the different functions used during your se
 #### Classify 
   - "Object classification" : Allows to classify detections/cells 
   - "Pixel classification" : train pixel classifier or pixel thresholder to create automaticaly annotations
-  - 
 
 #### Extensions 
   - Combined extensions with QuPath like Cellpose 
