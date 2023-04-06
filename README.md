@@ -152,11 +152,13 @@ The "Workflow" tab allows you to see the different functions used during your se
   - "Grid views" -> "Annotation grid summary wiew" : See the differents annotations, and the number of detection inside 
 
   - **"Export measurement"** :  export the annotations or detections measurements in csv
-  ![image](https://user-images.githubusercontent.com/127110867/230372909-96b3e056-8a76-4b5e-b06d-64e7230fdf1a.png)
+![export measurement](https://user-images.githubusercontent.com/127110867/230373940-fb8e953c-fb67-4b2d-b8d7-172feb9675e9.png)
+
 
 #### Automate
-  - "Show script editor" :  create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/228241890-b8873e8a-e40d-4775-b733-69c4734ec771.png)
-  - You can also import a script directly into the software or drag and drop (jar file can also be dragged and drop and will be installed in the extension folder)
+  - "Show script editor" :  create a script or drag and drop an already created script   ![image](https://user-images.githubusercontent.com/127110867/230374039-55dca3c7-3635-46e2-aec0-d8aa8d64b4df.png)
+  - You can also import a script directly into the software or drag and drop. Some script need extansion programme in Java. Jar file can also be dragged and drop and will be installed in the extension folder.
+  - The "Run in project" function allows to run the script on all your images. 
 
 #### Analyse 
   - "Cell detection" : you can create detections or cells (cell expansion > 0)
@@ -201,7 +203,8 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 ![image](https://user-images.githubusercontent.com/127110867/225280131-33b778e0-7887-49eb-b304-72ff20fa8e01.png) : overlay opacity (detections,..).
 
-![image](https://user-images.githubusercontent.com/127110867/225280759-1ab602c2-45b3-4875-9acd-73678fd019d8.png) : Allows you to view measurements of TMAs, annotations or detections. 
+![image](https://user-images.githubusercontent.com/127110867/225280759-1ab602c2-45b3-4875-9acd-73678fd019d8.png) : To view measurements of TMAs, annotations or detections and also histogram, save in "txt".  
+![image](https://user-images.githubusercontent.com/127110867/230372909-96b3e056-8a76-4b5e-b06d-64e7230fdf1a.png)
 
 
 
