@@ -1,4 +1,4 @@
-# Qupath_Initiation
+# Qupath Initiation
 
 ![Qupath](https://user-images.githubusercontent.com/127110867/230375253-a976740b-cfd1-4065-9acd-0246424c009a.png)
 
