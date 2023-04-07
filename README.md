@@ -169,7 +169,10 @@ The "Workflow" tab allows you to see the different functions used during your se
 ![cell detection](https://user-images.githubusercontent.com/41480459/230610270-1e9e0e9c-6b82-4a66-9228-8cfa19133599.png)
 
     - "Positive cell detection" : create cells that belong to the "Positive" class
-    - "Subcellular detection" : detection of subcellular objects in cells
+    - "Subcellular detection" : detection of subcellular objects in cells  
+    
+    ![Clipboard](https://user-images.githubusercontent.com/41480459/230616350-2a9823b2-9195-4dd8-b167-0566f50f26d7.jpg)
+ 
   -  Spatial analysis (distance cells to annotation,..)
 
 ![Clipboard](https://user-images.githubusercontent.com/41480459/230606533-4152a14c-891a-4a1b-aa85-fc2feccfd6e2.jpg)
