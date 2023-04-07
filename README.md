@@ -171,6 +171,8 @@ The "Workflow" tab allows you to see the different functions used during your se
 
 ![Clipboard](https://user-images.githubusercontent.com/41480459/230606533-4152a14c-891a-4a1b-aa85-fc2feccfd6e2.jpg)
   - Create a "Density maps" from detections and finally an annotations by thresholding the maps  
+ 
+![Clipboard](https://user-images.githubusercontent.com/41480459/230608511-e37bc41c-fbe2-4b09-8e1e-0c17b37efe13.jpg)
 
 
 #### Classify 
