@@ -181,9 +181,9 @@ The "Workflow" tab allows you to see the different functions used during your se
 #### Classify 
   - "Object classification" : Allows to classify detections/cells  
   ![Clipboard](https://user-images.githubusercontent.com/41480459/225030223-4162f204-68ed-47c1-835b-16a492d86a57.jpg) 
-  - "Pixel classification" : train pixel classifier or pixel thresholder to create automaticaly annotations
+  - "Pixel classification" : pixel thresholder 
 ![image001](https://user-images.githubusercontent.com/41480459/225047518-e8cf9565-b953-401a-845e-93a6722d4571.png)
-
+or pixel classifier to create automaticaly annotations 
 ![Clipboard](https://user-images.githubusercontent.com/41480459/230612705-55136436-9bcf-4737-91a0-dba5908423b9.png)
 
 
@@ -192,14 +192,6 @@ The "Workflow" tab allows you to see the different functions used during your se
 
 #### Help 
   - Documentations
-
-
-
-
-
-
-
-
 
     Fonctionnel keys  
 
@@ -220,19 +212,6 @@ Displays the name of the annotations. To name an annotation, you need to go to t
 
 ![image](https://user-images.githubusercontent.com/127110867/225280759-1ab602c2-45b3-4875-9acd-73678fd019d8.png) : To view measurements of TMAs, annotations or detections and also histogram, save in "txt".  
 ![image](https://user-images.githubusercontent.com/127110867/230372909-96b3e056-8a76-4b5e-b06d-64e7230fdf1a.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
