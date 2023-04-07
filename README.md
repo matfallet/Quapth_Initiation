@@ -165,8 +165,11 @@ The "Workflow" tab allows you to see the different functions used during your se
 
 #### Analyse 
   - "Cell detection" : you can create detections or cells (cell expansion > 0)
-      - "Positive cell detection" : create cells that belong to the "Positive" class
-      - "Subcellular detection" : detection of subcellular objects in cells
+
+![cell detection](https://user-images.githubusercontent.com/41480459/230610270-1e9e0e9c-6b82-4a66-9228-8cfa19133599.png)
+
+    - "Positive cell detection" : create cells that belong to the "Positive" class
+    - "Subcellular detection" : detection of subcellular objects in cells
   -  Spatial analysis (distance cells to annotation,..)
 
 ![Clipboard](https://user-images.githubusercontent.com/41480459/230606533-4152a14c-891a-4a1b-aa85-fc2feccfd6e2.jpg)
@@ -176,8 +179,13 @@ The "Workflow" tab allows you to see the different functions used during your se
 
 
 #### Classify 
-  - "Object classification" : Allows to classify detections/cells 
+  - "Object classification" : Allows to classify detections/cells  
+  ![Clipboard](https://user-images.githubusercontent.com/41480459/225030223-4162f204-68ed-47c1-835b-16a492d86a57.jpg) 
   - "Pixel classification" : train pixel classifier or pixel thresholder to create automaticaly annotations
+![image001](https://user-images.githubusercontent.com/41480459/225047518-e8cf9565-b953-401a-845e-93a6722d4571.png)
+
+![Clipboard](https://user-images.githubusercontent.com/41480459/230612705-55136436-9bcf-4737-91a0-dba5908423b9.png)
+
 
 #### Extensions 
   - Combined extensions with QuPath like Cellpose 
