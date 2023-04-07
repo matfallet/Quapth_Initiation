@@ -168,7 +168,10 @@ The "Workflow" tab allows you to see the different functions used during your se
       - "Positive cell detection" : create cells that belong to the "Positive" class
       - "Subcellular detection" : detection of subcellular objects in cells
   -  Spatial analysis (distance cells to annotation,..)
-  - Create a "Density maps" from detections and finally an annotations by thresholding the maps
+  - Create a "Density maps" from detections and finally an annotations by thresholding the maps  
+  - 
+![Clipboard](https://user-images.githubusercontent.com/41480459/230606533-4152a14c-891a-4a1b-aa85-fc2feccfd6e2.jpg)
+
 
 #### Classify 
   - "Object classification" : Allows to classify detections/cells 
